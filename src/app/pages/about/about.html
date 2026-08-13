@@ -1,0 +1,150 @@
+<section class="about-shell page-shell about-premium">
+  <!-- HERO -->
+  <section class="hero-panel">
+    <div class="hero-copy">
+      <p class="eyebrow">ISHVANTA ONE CALL SERVICES</p>
+      <h1>Your Trusted Home Service Partner in Vadodara</h1>
+      <p class="lead">We provide reliable electrical, plumbing, AC repair, furniture, fabrication, CCTV, painting and home maintenance services through skilled technicians.</p>
+
+      <div class="hero-actions">
+        <button class="btn btn-primary" type="button" (click)="callNow()">Book Service</button>
+        <button class="btn btn-secondary" type="button" (click)="whatsappNow()">WhatsApp Now</button>
+      </div>
+      <div class="hero-logos">
+        <span>One Call, All Solutions</span>
+      </div>
+    </div>
+
+    <aside class="hero-visual">
+      <img src="/assets/images/technician-illustration.png" alt="Technician illustration" />
+    </aside>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section class="section who-we-are">
+    <div class="grid two-up">
+      <article class="card">
+        <p class="eyebrow">About Ishvanta One Call Services</p>
+        <h2>We make home maintenance easy, reliable and affordable.</h2>
+        <p>Ishvanta One Call Services was created with a simple mission — to make home maintenance and repair services easy, reliable, and affordable. We connect customers with trusted technicians for all household and technical service needs.</p>
+      </article>
+      <article class="card image-card">
+        <img src="/assets/images/company-office.jpg" alt="Company image" />
+      </article>
+    </div>
+  </section>
+
+  <!-- MISSION & VISION -->
+  <section class="section mission-vision">
+    <div class="grid two-up">
+      <article class="card">
+        <p class="eyebrow">Mission</p>
+        <h3>To provide fast, affordable and quality home services while ensuring complete customer satisfaction.</h3>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Vision</p>
+        <h3>To become the most trusted one-call solution provider for every home and business in Gujarat.</h3>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section why-choose">
+    <p class="eyebrow">Why Choose Us</p>
+    <h2>Premium service you can trust</h2>
+    <div class="choose-grid">
+      <div class="choose-card">✓ Verified Technicians</div>
+      <div class="choose-card">✓ Quick Response</div>
+      <div class="choose-card">✓ Transparent Pricing</div>
+      <div class="choose-card">✓ Quality Workmanship</div>
+      <div class="choose-card">✓ Service Warranty</div>
+      <div class="choose-card">✓ Customer Support</div>
+    </div>
+  </section>
+
+  <!-- OUR SERVICES -->
+  <section class="section our-services">
+    <p class="eyebrow">Our Services</p>
+    <h2>Comprehensive home services</h2>
+    <div class="services-grid">
+      <article class="service-card"><strong>Electrical Service</strong><p>Wiring, panels, lighting and safety checks.</p></article>
+      <article class="service-card"><strong>Plumbing Service</strong><p>Leak repairs, pipe replacement and drain cleaning.</p></article>
+      <article class="service-card"><strong>AC & Fridge Service</strong><p>Servicing, gas refill and diagnostics.</p></article>
+      <article class="service-card"><strong>House Painting</strong><p>Interior and exterior painting with premium finishes.</p></article>
+      <article class="service-card"><strong>Furniture Service</strong><p>Assembly, repair and carpentry.</p></article>
+      <article class="service-card"><strong>Kitchen Appliances Service</strong><p>Ovens, chimneys, dishwashers and purifiers.</p></article>
+      <article class="service-card"><strong>Fabrication Service</strong><p>Custom metalwork and welding.</p></article>
+      <article class="service-card"><strong>CCTV Installation</strong><p>Security cameras, DVR/NVR and monitoring setup.</p></article>
+      <article class="service-card"><strong>Two Wheeler Service</strong><p>Routine servicing and repairs.</p></article>
+    </div>
+  </section>
+
+  <!-- WORK PROCESS -->
+  <section class="section work-process">
+    <p class="eyebrow">Our Work Process</p>
+    <h2>How we deliver reliable service</h2>
+    <div class="process-timeline">
+      <div class="step">1<span>Book Service</span></div>
+      <div class="step">2<span>Technician Assigned</span></div>
+      <div class="step">3<span>Inspection & Estimate</span></div>
+      <div class="step">4<span>Service Completion</span></div>
+      <div class="step">5<span>Customer Satisfaction</span></div>
+    </div>
+  </section>
+
+  <!-- COMPANY STATS -->
+  <section class="section stats-section">
+    <div class="stats-grid">
+      <div class="stat"><strong class="counter" data-target="500">0</strong><span>Jobs Completed</span></div>
+      <div class="stat"><strong class="counter" data-target="300">0</strong><span>Happy Customers</span></div>
+      <div class="stat"><strong class="counter" data-target="10">0</strong><span>Service Categories</span></div>
+      <div class="stat"><strong class="counter" data-target="4">0</strong><span>Years Experience</span></div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS -->
+  <section class="section areas-section">
+    <p class="eyebrow">Service Areas</p>
+    <h2>Where we operate</h2>
+    <div class="areas-grid">
+      <span>Vadodara</span>
+      <span>Tarsali</span>
+      <span>Manjalpur</span>
+      <span>Makarpura</span>
+      <span>Waghodia</span>
+      <span>Karelibaug</span>
+      <span>Gotri</span>
+      <span>Harni</span>
+      <span>Ajwa</span>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <p class="eyebrow">Customer Testimonials</p>
+    <h2>Trusted by local homeowners</h2>
+    <div class="testimonial-card main-testimonial">
+      <p class="quote">"{{currentTestimonial?.quote}}"</p>
+      <div class="meta">
+        <img class="photo" [src]="currentTestimonial?.photo" alt="customer" />
+        <div>
+          <strong>{{currentTestimonial?.name}}</strong>
+          <span class="rating">{{currentTestimonial?.rating}} ★ — {{currentTestimonial?.service}}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section cta-final">
+    <div class="cta-inner">
+      <h2>Need Professional Home Services?</h2>
+      <p class="lead">One Call. All Solutions.</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary" type="button" (click)="callNow()">Call Now</button>
+        <button class="btn btn-secondary" type="button" (click)="whatsappNow()">WhatsApp Now</button>
+        <button class="btn btn-primary" type="button" (click)="bookService()">Book Service</button>
+      </div>
+    </div>
+  </section>
+</section>

@@ -1,0 +1,167 @@
+<main class="page-shell our-work-page">
+  <section class="hero-section">
+    <div class="hero-visual">
+      <img
+        loading="lazy"
+        src="https://images.unsplash.com/photo-1519741491605-44b3b1b2153f?auto=format&fit=crop&w=1400&q=80"
+        alt="Technician servicing equipment"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-copy">
+      <span class="eyebrow">Our Work</span>
+      <h1>Our Completed Projects</h1>
+      <p class="lead">Delivering reliable home & technical services across Vadodara.</p>
+      <div class="hero-cta">
+        <a href="/contact" class="button button-primary">Book a Service</a>
+        <a href="/contact" class="button button-secondary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="stats-grid">
+      <article class="stat-card" *ngFor="let stat of stats">
+        <p class="stat-value">{{ stat.value }}</p>
+        <p class="stat-label">{{ stat.label }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="filter-section">
+    <div class="filter-title-wrap">
+      <h2>Explore work by category</h2>
+      <p>Focus on the services you need and review the best results from each area.</p>
+    </div>
+    <div class="filter-pill-wrap">
+      <button
+        class="filter-pill"
+        *ngFor="let filter of filters"
+        [ngClass]="{ active: activeFilter === filter }"
+        (click)="setFilter(filter)"
+        type="button"
+      >
+        {{ filter }}
+      </button>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-grid" [class.filtering]="isFiltering">
+      <article class="project-card" *ngFor="let project of filteredProjects">
+        <div class="project-card-visual">
+          <div class="project-image before">
+            <img loading="lazy" [src]="project.beforeImg" [alt]="project.title + ' before'" />
+            <span class="image-label">Before</span>
+          </div>
+          <div class="project-image after">
+            <img loading="lazy" [src]="project.afterImg" [alt]="project.title + ' after'" />
+            <span class="image-label">After</span>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <span class="project-pill">{{ project.category }}</span>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.location }} • {{ project.date }}</p>
+          <div class="project-rating">Rating: {{ project.rating }} ★</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="featured-section">
+    <div class="section-heading-wrap">
+      <span class="section-eyebrow">Featured Projects</span>
+      <h2>Premium projects that showcase our craftsmanship.</h2>
+    </div>
+    <div class="featured-grid">
+      <article class="featured-card" *ngFor="let project of featuredProjects">
+        <div class="featured-visual">
+          <img loading="lazy" [src]="project.image" [alt]="project.title" />
+        </div>
+        <div class="featured-content">
+          <span class="featured-tag">{{ project.category }}</span>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="process-section">
+    <div class="section-heading-wrap">
+      <span class="section-eyebrow">Work Process</span>
+      <h2>Designed for clarity, speed, and satisfaction.</h2>
+    </div>
+    <div class="timeline-grid">
+      <article class="timeline-step" *ngFor="let step of processSteps; let idx = index">
+        <div class="timeline-marker">
+          <span>{{ idx + 1 }}</span>
+        </div>
+        <p>{{ step }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="testimonial-section">
+    <div class="section-heading-wrap">
+      <span class="section-eyebrow">Customer Reviews</span>
+      <h2>Trusted by homeowners and businesses across Vadodara.</h2>
+    </div>
+    <div class="testimonial-carousel">
+      <div class="testimonial-track">
+        <article class="testimonial-card" *ngFor="let item of testimonials">
+          <div class="testimonial-meta">
+            <img loading="lazy" [src]="item.photo" [alt]="item.name" />
+            <div>
+              <h3>{{ item.name }}</h3>
+              <p>{{ item.service }}</p>
+            </div>
+          </div>
+          <p class="testimonial-quote">“{{ item.quote }}”</p>
+          <div class="testimonial-rating">{{ item.rating }} ★</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="coverage-section">
+    <div class="section-heading-wrap">
+      <span class="section-eyebrow">Service Coverage</span>
+      <h2>Reliable service across every neighbourhood.</h2>
+    </div>
+    <div class="coverage-map-card">
+      <div class="map-visual"></div>
+      <div class="coverage-list">
+        <span *ngFor="let area of coverageAreas">{{ area }}</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-section">
+    <div class="section-heading-wrap">
+      <span class="section-eyebrow">Why Choose Us</span>
+      <h2>Premium service values that build trust.</h2>
+    </div>
+    <div class="trust-grid">
+      <article class="trust-card" *ngFor="let trust of trustItems">
+        <span class="trust-icon">✓</span>
+        <h3>{{ trust.title }}</h3>
+        <p>{{ trust.detail }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="final-cta-section">
+    <div class="final-cta-copy">
+      <span class="section-eyebrow">Need Professional Home Services?</span>
+      <h2>Book your trusted Ishvanta service today.</h2>
+    </div>
+    <div class="final-cta-actions">
+      <a class="button button-primary" href="https://wa.me/918849701206" target="_blank" rel="noreferrer">WhatsApp Now</a>
+      <a class="button button-secondary" href="tel:+918849701206">Call Now</a>
+      <a class="button button-tertiary" href="/contact">Book Service</a>
+    </div>
+  </section>
+</main>

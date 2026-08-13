@@ -1,0 +1,41 @@
+<header class="site-header">
+  <div class="navbar-container">
+    <a class="brand-section" routerLink="/" (click)="closeMobileMenu()">
+      <img class="navbar-logo" src="/assets/ishvanta-logo.png" alt="Ishvanta Services Logo" />
+    </a>
+
+    <nav class="nav-menu" *ngIf="!mobileMenuOpen()">
+      <a mat-button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMobileMenu()">Home</a>
+      <a mat-button routerLink="/about" routerLinkActive="active" (click)="closeMobileMenu()">About Us</a>
+      <a mat-button routerLink="/services" routerLinkActive="active" (click)="closeMobileMenu()">Services</a>
+      <a mat-button routerLink="/our-work" routerLinkActive="active" (click)="closeMobileMenu()">Our Work</a>
+      <a mat-button routerLink="/reviews" routerLinkActive="active" (click)="closeMobileMenu()">Reviews</a>
+      <a mat-button routerLink="/service-areas" routerLinkActive="active" (click)="closeMobileMenu()">Service Areas</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-primary nav-cta" routerLink="/contact" (click)="closeMobileMenu()">Contact Us</a>
+      <button class="hamburger-btn" type="button" (click)="toggleMobileMenu()" aria-label="Toggle menu">
+        <span class="hamburger-icon" [class.open]="mobileMenuOpen()"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" *ngIf="mobileMenuOpen()">
+  <nav class="mobile-menu-nav">
+    <a class="mobile-menu-link" mat-button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMobileMenu()">Home</a>
+    <a class="mobile-menu-link" mat-button routerLink="/about" routerLinkActive="active" (click)="closeMobileMenu()">About Us</a>
+    <a class="mobile-menu-link" mat-button routerLink="/services" routerLinkActive="active" (click)="closeMobileMenu()">Services</a>
+    <a class="mobile-menu-link" mat-button routerLink="/our-work" routerLinkActive="active" (click)="closeMobileMenu()">Our Work</a>
+    <a class="mobile-menu-link" mat-button routerLink="/reviews" routerLinkActive="active" (click)="closeMobileMenu()">Reviews</a>
+    <a class="mobile-menu-link" mat-button routerLink="/service-areas" routerLinkActive="active" (click)="closeMobileMenu()">Service Areas</a>
+    <a class="mobile-menu-link mobile-menu-cta" routerLink="/contact" (click)="closeMobileMenu()">Contact Us</a>
+  </nav>
+</div>
+
+<main class="page-shell">
+  <router-outlet></router-outlet>
+</main>
+
+<app-footer></app-footer>
