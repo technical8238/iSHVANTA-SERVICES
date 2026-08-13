@@ -1,0 +1,624 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>Ishavanta One Call Service | Empowering Businesses Through Smart Technology</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ishavanta One Call Service delivers premium IT services, software development, UI/UX design, cloud engineering, AI automation, and SEO solutions for startups, enterprises, and global brands.">
+  <meta name="keywords" content="IT Services, Software Development, UI/UX Design, Cloud Solutions, AI Automation, SEO, Web Application Development, Mobile App Development, E-commerce Development">
+  <meta name="author" content="Ishavanta One Call Service">
+  <meta property="og:title" content="Ishavanta One Call Service | Empowering Businesses Through Smart Technology">
+  <meta property="og:description" content="Partner with a premium IT agency that builds modern websites, web applications, mobile apps, cloud platforms, and AI-powered automation for high-growth businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ishavantaonecallservice.com/">
+  <meta property="og:image" content="https://www.ishavantaonecallservice.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ishavanta One Call Service | Empowering Businesses Through Smart Technology">
+  <meta name="twitter:description" content="Premium IT services for modern businesses: web development, mobile apps, UI/UX, cloud, AI automation, and digital growth.">
+  <meta name="twitter:image" content="https://www.ishavantaonecallservice.com/og-image.png">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Ishavanta Service",
+    "url": "https://www.ishavantaonecallservice.com",
+    "logo": "https://www.ishavantaonecallservice.com/favicon.ico",
+    "sameAs": [
+      "https://www.linkedin.com/company/ishavanta-one-call-service",
+      "https://twitter.com/ishavanta_onecall_service",
+      "https://www.facebook.com/ishavantaonecallservice"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-9876543210",
+        "contactType": "customer support",
+        "email": "contact@ishavantaonecallservice.com"
+      }
+    ],
+    "description": "Ishavanta One Call Service is an enterprise-level IT services firm delivering websites, apps, cloud platforms, AI automation, SEO and custom software for startups, small businesses and global brands."
+  }
+  </script>
+<style>@layer properties;@layer theme,base,components,utilities;@layer theme{:root{--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-white: #fff;--shadow-sm: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);--shadow-md: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);--ease-out: cubic-bezier(0, 0, .2, 1);--default-transition-duration: .15s;--default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);--default-font-family: var(--font-sans);--default-mono-font-family: var(--font-mono)}}@layer base{*,:after,:before{box-sizing:border-box;margin:0;padding:0;border:0 solid}html{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4;font-family:var(--default-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings, normal);font-variation-settings:var(--default-font-variation-settings, normal);-webkit-tap-highlight-color:transparent}h1,h2,h3,h4{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}ul{list-style:none}img,svg,iframe{display:block;vertical-align:middle}img{max-width:100%;height:auto}button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;border-radius:0;background-color:transparent;opacity:1}button{appearance:button}}@layer utilities{}:root{color-scheme:light;--bg: #F8FAFC;--surface: #FFFFFF;--surface-soft: #F8FAFC;--surface-muted: rgba(248, 250, 252, .95);--text: #0F172A;--text-dark: #0F172A;--text-muted: #64748B;--border: #E2E8F0;--color-white: #FFFFFF;--color-primary: #2563EB;--color-accent: #F97316;--color-primary-dark: #1D4ED8;--shadow-sm: 0 8px 24px rgba(15, 23, 42, .08);--shadow-md: 0 18px 50px rgba(15, 23, 42, .12);--shadow-lg: 0 30px 80px rgba(15, 23, 42, .16);--shadow-hover: 0 30px 60px rgba(37, 99, 235, .14);--shadow: var(--shadow-sm);--accent: var(--color-accent);--accent-soft: rgba(249, 115, 22, .12);--accent-alt: var(--color-accent);--muted: var(--text-muted);--radius: 18px;--radius-lg: 24px;--radius-pill: 999px;--container: 1280px;--transition: .25s ease}html{scroll-behavior:smooth}*,*:before,*:after{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:var(--text);background:var(--bg);line-height:1.65;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img,svg{max-width:100%;display:block;height:auto}a{color:inherit;text-decoration:none}button{font:inherit}body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(circle at 15% 15%,rgba(37,99,235,.14),transparent 20%),radial-gradient(circle at 85% 20%,rgba(249,115,22,.1),transparent 18%);z-index:-1}.page-shell{width:min(100%,var(--container));margin:0 auto;padding:0 1.5rem 4rem}.section-header{max-width:900px;margin:0 auto 2rem;text-align:center}.section-header h2{margin:0;font-size:clamp(2.25rem,3vw,3.4rem);line-height:1.04;color:var(--text-dark)}.section-header p,.hero-text,.service-card p,.benefit-card p,.review-text,.faq-answer p{margin:0;color:var(--text-muted);font-size:1rem;line-height:1.85}.premium-card,.service-card,.benefit-card,.stat-card,.testimonial-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-sm);transition:transform var(--transition),box-shadow var(--transition),border-color var(--transition),background-color var(--transition)}.premium-card:hover,.service-card:hover,.benefit-card:hover,.stat-card:hover,.testimonial-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:#2563eb2e}.benefit-card h3,.service-card h3,.testimonial-card h4,.section-header h2,.hero-title{color:var(--text-dark);margin:0}.btn,.nav-cta,.area-link,.indicator{display:inline-flex;align-items:center;justify-content:center;gap:.65rem;border:none;border-radius:var(--radius-pill);cursor:pointer;padding:1rem 1.6rem;font-weight:700;transition:transform var(--transition),box-shadow var(--transition),background var(--transition),border-color var(--transition)}.btn-primary,.nav-cta{background:linear-gradient(135deg,var(--color-primary) 0%,var(--color-accent) 100%);color:var(--color-white);box-shadow:0 18px 40px #2563eb38}.btn-secondary,.btn-whatsapp{background:#2563eb14;color:var(--color-primary);border:1px solid rgba(37,99,235,.16)}.btn-tertiary{background:#f973161f;color:var(--color-primary);border:1px solid rgba(249,115,22,.18)}.btn:hover,.nav-cta:hover{transform:translateY(-2px);box-shadow:0 20px 50px #2563eb24}@media(max-width:640px){.page-shell{padding-left:1rem;padding-right:1rem}}@property --tw-rotate-x{syntax: "*"; inherits: false;}@property --tw-rotate-y{syntax: "*"; inherits: false;}@property --tw-rotate-z{syntax: "*"; inherits: false;}@property --tw-skew-x{syntax: "*"; inherits: false;}@property --tw-skew-y{syntax: "*"; inherits: false;}@property --tw-border-style{syntax: "*"; inherits: false; initial-value: solid;}@property --tw-blur{syntax: "*"; inherits: false;}@property --tw-brightness{syntax: "*"; inherits: false;}@property --tw-contrast{syntax: "*"; inherits: false;}@property --tw-grayscale{syntax: "*"; inherits: false;}@property --tw-hue-rotate{syntax: "*"; inherits: false;}@property --tw-invert{syntax: "*"; inherits: false;}@property --tw-opacity{syntax: "*"; inherits: false;}@property --tw-saturate{syntax: "*"; inherits: false;}@property --tw-sepia{syntax: "*"; inherits: false;}@property --tw-drop-shadow{syntax: "*"; inherits: false;}@property --tw-drop-shadow-color{syntax: "*"; inherits: false;}@property --tw-drop-shadow-alpha{syntax: "<percentage>"; inherits: false; initial-value: 100%;}@property --tw-drop-shadow-size{syntax: "*"; inherits: false;}@property --tw-ease{syntax: "*"; inherits: false;}@layer properties{@supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))){*,:before,:after{--tw-rotate-x: initial;--tw-rotate-y: initial;--tw-rotate-z: initial;--tw-skew-x: initial;--tw-skew-y: initial;--tw-border-style: solid;--tw-blur: initial;--tw-brightness: initial;--tw-contrast: initial;--tw-grayscale: initial;--tw-hue-rotate: initial;--tw-invert: initial;--tw-opacity: initial;--tw-saturate: initial;--tw-sepia: initial;--tw-drop-shadow: initial;--tw-drop-shadow-color: initial;--tw-drop-shadow-alpha: 100%;--tw-drop-shadow-size: initial;--tw-ease: initial}}}
+</style><link rel="stylesheet" href="styles-TUL6JSMD.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-TUL6JSMD.css"></noscript><style ng-app-id="ng">.site-header[_ngcontent-ng-c588981805]{position:sticky;top:0;z-index:999;width:100%;background:#ffffffd1;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);border-bottom:1px solid rgba(226,232,240,.72);box-shadow:0 16px 40px #0f172a14}html[_ngcontent-ng-c588981805]{font-size:16px}body[_ngcontent-ng-c588981805]{font-size:1rem;line-height:1.6;color:#0f172a}.navbar-container[_ngcontent-ng-c588981805]{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:min(100%,var(--container));margin:0 auto;padding:.85rem 1rem}.brand-section[_ngcontent-ng-c588981805]{display:inline-flex;align-items:center;gap:.85rem;text-decoration:none;color:inherit}.navbar-logo[_ngcontent-ng-c588981805]{display:block;height:72px;width:auto;max-width:100%;object-fit:contain;opacity:1;visibility:visible}@media(max-width:768px){.navbar-logo[_ngcontent-ng-c588981805]{height:52px}}.nav-menu[_ngcontent-ng-c588981805]{display:flex;gap:1.5rem;align-items:center;flex:1;justify-content:center}.nav-menu[_ngcontent-ng-c588981805]   a[_ngcontent-ng-c588981805]{font-weight:600;color:var(--text-muted);font-size:1rem;padding:.85rem 0;position:relative}.nav-menu[_ngcontent-ng-c588981805]   a[_ngcontent-ng-c588981805]:after{content:"";position:absolute;left:0;right:0;bottom:-.35rem;height:2px;border-radius:999px;background:transparent;transform:scaleX(0);transform-origin:center;transition:transform var(--transition),background var(--transition)}.nav-menu[_ngcontent-ng-c588981805]   a[_ngcontent-ng-c588981805]:hover, .nav-menu[_ngcontent-ng-c588981805]   a[_ngcontent-ng-c588981805]:focus-visible, .nav-menu[_ngcontent-ng-c588981805]   a.active[_ngcontent-ng-c588981805]{color:var(--color-primary)}.nav-menu[_ngcontent-ng-c588981805]   a[_ngcontent-ng-c588981805]:hover:after, .nav-menu[_ngcontent-ng-c588981805]   a.active[_ngcontent-ng-c588981805]:after{background:linear-gradient(135deg,var(--color-primary) 0%,var(--color-accent) 100%);transform:scaleX(1)}.header-actions[_ngcontent-ng-c588981805]{display:flex;align-items:center;gap:.75rem}.nav-cta[_ngcontent-ng-c588981805]{min-width:190px;padding:1rem 1.5rem}.hamburger-btn[_ngcontent-ng-c588981805]{display:none;border:none;background:transparent;cursor:pointer;padding:.75rem}.hamburger-icon[_ngcontent-ng-c588981805]{position:relative;width:24px;height:2px;background:var(--text-dark);display:inline-block}.hamburger-icon[_ngcontent-ng-c588981805]:before, .hamburger-icon[_ngcontent-ng-c588981805]:after{content:"";position:absolute;left:0;width:24px;height:2px;background:var(--text-dark);border-radius:999px;transition:transform var(--transition),opacity var(--transition)}.hamburger-icon[_ngcontent-ng-c588981805]:before{top:-8px}.hamburger-icon[_ngcontent-ng-c588981805]:after{top:8px}.hamburger-icon.open[_ngcontent-ng-c588981805]{background:transparent}.hamburger-icon.open[_ngcontent-ng-c588981805]:before{transform:translateY(8px) rotate(45deg)}.hamburger-icon.open[_ngcontent-ng-c588981805]:after{transform:translateY(-8px) rotate(-45deg)}.mobile-menu[_ngcontent-ng-c588981805]{position:absolute;inset:100% 0 0;background:#fffffffa;border-top:1px solid rgba(226,232,240,.72);box-shadow:0 24px 50px #0f172a14;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);padding:1rem}.mobile-menu-nav[_ngcontent-ng-c588981805]{display:grid;gap:.5rem}.mobile-menu-link[_ngcontent-ng-c588981805], .mobile-menu-cta[_ngcontent-ng-c588981805]{display:block;width:100%;padding:1rem 1.25rem;border-radius:var(--radius-pill);text-decoration:none;color:var(--text-dark);font-weight:700}.mobile-menu-cta[_ngcontent-ng-c588981805]{background:linear-gradient(135deg,var(--color-primary) 0%,var(--color-accent) 100%);color:var(--color-white)}.mobile-menu-link[_ngcontent-ng-c588981805]:hover, .mobile-menu-cta[_ngcontent-ng-c588981805]:hover{background:#2563eb1a}@media(max-width:1024px){.nav-menu[_ngcontent-ng-c588981805]{gap:1rem}}@media(max-width:768px){.nav-menu[_ngcontent-ng-c588981805], .nav-cta[_ngcontent-ng-c588981805]{display:none}.hamburger-btn[_ngcontent-ng-c588981805]{display:inline-flex}}</style><style ng-app-id="ng">[_ngcontent-ng-c3793010630]:root{--footer-bg: linear-gradient(135deg, #0f172a 0%, #172554 45%, #1e293b 100%);--footer-card-bg: rgba(15, 23, 42, .78);--footer-card-border: rgba(255, 255, 255, .14);--footer-text: #f8fafc;--footer-muted: #cbd5e1;--footer-accent: #ff6b00;--footer-accent-2: #25d366;--footer-shadow: 0 20px 45px rgba(2, 8, 23, .35)}*[_ngcontent-ng-c3793010630]{box-sizing:border-box}.footer-shell[_ngcontent-ng-c3793010630]{background:var(--footer-bg);color:var(--footer-text);padding:56px 20px 24px;position:relative;overflow:hidden}.footer-shell[_ngcontent-ng-c3793010630]:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at top left,rgba(255,107,0,.16),transparent 34%);pointer-events:none}.footer-container[_ngcontent-ng-c3793010630]{max-width:1280px;margin:0 auto;position:relative;z-index:1}.footer-grid[_ngcontent-ng-c3793010630]{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;align-items:start}.footer-card[_ngcontent-ng-c3793010630]{background:var(--footer-card-bg);border:1px solid var(--footer-card-border);border-radius:22px;padding:28px;box-shadow:var(--footer-shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}.footer-card[_ngcontent-ng-c3793010630]:hover{transform:translateY(-4px);border-color:#ff6b0059;box-shadow:0 24px 50px #02081773}.footer-brand[_ngcontent-ng-c3793010630]{display:flex;flex-direction:column;gap:20px;min-height:100%}.brand-block[_ngcontent-ng-c3793010630]{display:flex;flex-direction:column;gap:16px}.brand-logo[_ngcontent-ng-c3793010630]{width:150px;height:auto;display:block;filter:drop-shadow(0 8px 16px rgba(0,0,0,.2))}.eyebrow[_ngcontent-ng-c3793010630]{margin:0 0 6px;font-size:.78rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#f59e0b}.brand-title[_ngcontent-ng-c3793010630]{margin:0;font-size:2rem;line-height:1.15;font-weight:700;letter-spacing:-.02em}.brand-title[_ngcontent-ng-c3793010630]   span[_ngcontent-ng-c3793010630]{display:block;color:#f8fafc}.brand-description[_ngcontent-ng-c3793010630]{margin:0;color:var(--footer-muted);line-height:1.7;font-size:.96rem}.brand-actions[_ngcontent-ng-c3793010630]{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}.btn[_ngcontent-ng-c3793010630]{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 16px;border-radius:999px;text-decoration:none;font-weight:600;transition:transform .22s ease,box-shadow .22s ease,background-color .22s ease}.btn[_ngcontent-ng-c3793010630]:hover{transform:translateY(-2px)}.btn-whatsapp[_ngcontent-ng-c3793010630]{background:#1ea952;color:#fff;box-shadow:0 12px 24px #25d3663d}.footer-heading[_ngcontent-ng-c3793010630]{margin:0 0 18px;font-size:1.05rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#000}.footer-links[_ngcontent-ng-c3793010630]{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}.footer-link[_ngcontent-ng-c3793010630]{display:inline-flex;align-items:center;gap:8px;color:var(--footer-text);text-decoration:none;font-size:.96rem;transition:color .22s ease,transform .22s ease}.footer-link[_ngcontent-ng-c3793010630]:hover{color:var(--footer-accent);transform:translate(3px)}.service-grid[_ngcontent-ng-c3793010630]{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.service-item[_ngcontent-ng-c3793010630]{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:12px;border-radius:14px;background:#ffffff0d;color:var(--footer-text);text-decoration:none;border:1px solid rgba(255,255,255,.06);transition:transform .22s ease,background-color .22s ease,border-color .22s ease}.service-item[_ngcontent-ng-c3793010630]:hover{transform:translateY(-2px);background:#ff6b0024;border-color:#ff6b0047}.service-icon[_ngcontent-ng-c3793010630]{width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:#ffffff17;color:#ffb36b}.service-item[_ngcontent-ng-c3793010630]   span[_ngcontent-ng-c3793010630]{font-size:.86rem;line-height:1.4}.contact-list[_ngcontent-ng-c3793010630]{display:grid;gap:12px}.contact-item[_ngcontent-ng-c3793010630]{display:flex;gap:12px;align-items:flex-start;text-decoration:none;color:var(--footer-text);padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08);transition:color .22s ease}.contact-item[_ngcontent-ng-c3793010630]:last-child{border-bottom:0;padding-bottom:0}.contact-item[_ngcontent-ng-c3793010630]:hover{color:#ffd2aa}.contact-icon[_ngcontent-ng-c3793010630]{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:#ffffff17;color:#ffb36b;flex-shrink:0}.contact-item[_ngcontent-ng-c3793010630]   h4[_ngcontent-ng-c3793010630]{margin:0 0 4px;font-size:.9rem;font-weight:700}.contact-item[_ngcontent-ng-c3793010630]   p[_ngcontent-ng-c3793010630]{margin:0;color:var(--footer-muted);font-size:.92rem;line-height:1.5}.social-links[_ngcontent-ng-c3793010630]{display:flex;gap:10px;margin-top:18px}.social-link[_ngcontent-ng-c3793010630]{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:#ffffff14;color:var(--footer-text);text-decoration:none;transition:transform .22s ease,background-color .22s ease,color .22s ease}.social-link[_ngcontent-ng-c3793010630]:hover{transform:translateY(-2px);background:#ff6b0029;color:#ffb36b}.footer-bottom[_ngcontent-ng-c3793010630]{margin-top:24px;padding:22px 0 0;border-top:1px solid rgba(255,255,255,.12);display:grid;grid-template-columns:1.2fr 1fr .8fr;gap:16px;align-items:center}.footer-bottom-left[_ngcontent-ng-c3793010630], .footer-bottom-center[_ngcontent-ng-c3793010630], .footer-bottom-right[_ngcontent-ng-c3793010630]{display:flex;align-items:center;flex-wrap:wrap;gap:10px}.footer-bottom-left[_ngcontent-ng-c3793010630]{color:var(--footer-muted);font-size:.95rem}.footer-bottom-center[_ngcontent-ng-c3793010630]{justify-content:center;gap:14px}.footer-bottom-center[_ngcontent-ng-c3793010630]   a[_ngcontent-ng-c3793010630]{color:var(--footer-text);text-decoration:none;font-size:.92rem;transition:color .22s ease}.footer-bottom-center[_ngcontent-ng-c3793010630]   a[_ngcontent-ng-c3793010630]:hover{color:var(--footer-accent)}.footer-bottom-right[_ngcontent-ng-c3793010630]{justify-content:flex-end;color:var(--footer-muted);font-size:.95rem;font-weight:600}@media(max-width:1100px){.footer-grid[_ngcontent-ng-c3793010630]{grid-template-columns:repeat(2,minmax(0,1fr))}.footer-bottom[_ngcontent-ng-c3793010630]{grid-template-columns:1fr;text-align:center}.footer-bottom-left[_ngcontent-ng-c3793010630], .footer-bottom-center[_ngcontent-ng-c3793010630], .footer-bottom-right[_ngcontent-ng-c3793010630]{justify-content:center}}@media(max-width:700px){.footer-shell[_ngcontent-ng-c3793010630]{padding:36px 16px 20px}.footer-grid[_ngcontent-ng-c3793010630]{grid-template-columns:1fr}.footer-card[_ngcontent-ng-c3793010630]{padding:24px}.service-grid[_ngcontent-ng-c3793010630]{grid-template-columns:1fr}.brand-actions[_ngcontent-ng-c3793010630]{flex-direction:column}.btn[_ngcontent-ng-c3793010630]{width:100%}.footer-bottom-center[_ngcontent-ng-c3793010630]{gap:8px 12px}}</style><style ng-app-id="ng">.mat-mdc-button-base {
+  text-decoration: none;
+}
+.mat-mdc-button-base .mat-icon {
+  min-height: fit-content;
+  flex-shrink: 0;
+}
+@media (hover: none) {
+  .mat-mdc-button-base:hover > span.mat-mdc-button-persistent-ripple::before {
+    opacity: 0;
+  }
+}
+
+.mdc-button {
+  -webkit-user-select: none;
+  user-select: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 64px;
+  border: none;
+  outline: none;
+  line-height: inherit;
+  -webkit-appearance: none;
+  overflow: visible;
+  vertical-align: middle;
+  background: transparent;
+  padding: 0 8px;
+}
+.mdc-button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.mdc-button:active {
+  outline: none;
+}
+.mdc-button:hover {
+  cursor: pointer;
+}
+.mdc-button:disabled {
+  cursor: default;
+  pointer-events: none;
+}
+.mdc-button[hidden] {
+  display: none;
+}
+.mdc-button .mdc-button__label {
+  position: relative;
+}
+
+.mat-mdc-button {
+  padding: 0 var(--mat-button-text-horizontal-padding, 12px);
+  height: var(--mat-button-text-container-height, 40px);
+  font-family: var(--mat-button-text-label-text-font, var(--mat-sys-label-large-font));
+  font-size: var(--mat-button-text-label-text-size, var(--mat-sys-label-large-size));
+  letter-spacing: var(--mat-button-text-label-text-tracking, var(--mat-sys-label-large-tracking));
+  text-transform: var(--mat-button-text-label-text-transform);
+  font-weight: var(--mat-button-text-label-text-weight, var(--mat-sys-label-large-weight));
+}
+.mat-mdc-button, .mat-mdc-button .mdc-button__ripple {
+  border-radius: var(--mat-button-text-container-shape, var(--mat-sys-corner-full));
+}
+.mat-mdc-button:not(:disabled) {
+  color: var(--mat-button-text-label-text-color, var(--mat-sys-primary));
+}
+.mat-mdc-button[disabled], .mat-mdc-button.mat-mdc-button-disabled {
+  cursor: default;
+  pointer-events: none;
+  color: var(--mat-button-text-disabled-label-text-color, color-mix(in srgb, var(--mat-sys-on-surface) 38%, transparent));
+}
+.mat-mdc-button.mat-mdc-button-disabled-interactive {
+  pointer-events: auto;
+}
+.mat-mdc-button:has(.material-icons, mat-icon, [matButtonIcon]) {
+  padding: 0 var(--mat-button-text-with-icon-horizontal-padding, 16px);
+}
+.mat-mdc-button > .mat-icon {
+  margin-right: var(--mat-button-text-icon-spacing, 8px);
+  margin-left: var(--mat-button-text-icon-offset, -4px);
+}
+[dir=rtl] .mat-mdc-button > .mat-icon {
+  margin-right: var(--mat-button-text-icon-offset, -4px);
+  margin-left: var(--mat-button-text-icon-spacing, 8px);
+}
+.mat-mdc-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-text-icon-offset, -4px);
+  margin-left: var(--mat-button-text-icon-spacing, 8px);
+}
+[dir=rtl] .mat-mdc-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-text-icon-spacing, 8px);
+  margin-left: var(--mat-button-text-icon-offset, -4px);
+}
+.mat-mdc-button .mat-ripple-element {
+  background-color: var(--mat-button-text-ripple-color, color-mix(in srgb, var(--mat-sys-primary) calc(var(--mat-sys-pressed-state-layer-opacity) * 100%), transparent));
+}
+.mat-mdc-button .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-text-state-layer-color, var(--mat-sys-primary));
+}
+.mat-mdc-button.mat-mdc-button-disabled .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-text-disabled-state-layer-color, var(--mat-sys-on-surface-variant));
+}
+.mat-mdc-button:hover > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-text-hover-state-layer-opacity, var(--mat-sys-hover-state-layer-opacity));
+}
+.mat-mdc-button.cdk-program-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-button.cdk-keyboard-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-button.mat-mdc-button-disabled-interactive:focus > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-text-focus-state-layer-opacity, var(--mat-sys-focus-state-layer-opacity));
+}
+.mat-mdc-button:active > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-text-pressed-state-layer-opacity, var(--mat-sys-pressed-state-layer-opacity));
+}
+.mat-mdc-button .mat-mdc-button-touch-target {
+  position: absolute;
+  top: 50%;
+  height: var(--mat-button-text-touch-target-size, 48px);
+  display: var(--mat-button-text-touch-target-display, block);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.mat-mdc-unelevated-button {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: var(--mat-button-filled-container-height, 40px);
+  font-family: var(--mat-button-filled-label-text-font, var(--mat-sys-label-large-font));
+  font-size: var(--mat-button-filled-label-text-size, var(--mat-sys-label-large-size));
+  letter-spacing: var(--mat-button-filled-label-text-tracking, var(--mat-sys-label-large-tracking));
+  text-transform: var(--mat-button-filled-label-text-transform);
+  font-weight: var(--mat-button-filled-label-text-weight, var(--mat-sys-label-large-weight));
+  padding: 0 var(--mat-button-filled-horizontal-padding, 24px);
+}
+.mat-mdc-unelevated-button > .mat-icon {
+  margin-right: var(--mat-button-filled-icon-spacing, 8px);
+  margin-left: var(--mat-button-filled-icon-offset, -8px);
+}
+[dir=rtl] .mat-mdc-unelevated-button > .mat-icon {
+  margin-right: var(--mat-button-filled-icon-offset, -8px);
+  margin-left: var(--mat-button-filled-icon-spacing, 8px);
+}
+.mat-mdc-unelevated-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-filled-icon-offset, -8px);
+  margin-left: var(--mat-button-filled-icon-spacing, 8px);
+}
+[dir=rtl] .mat-mdc-unelevated-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-filled-icon-spacing, 8px);
+  margin-left: var(--mat-button-filled-icon-offset, -8px);
+}
+.mat-mdc-unelevated-button .mat-ripple-element {
+  background-color: var(--mat-button-filled-ripple-color, color-mix(in srgb, var(--mat-sys-on-primary) calc(var(--mat-sys-pressed-state-layer-opacity) * 100%), transparent));
+}
+.mat-mdc-unelevated-button .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-filled-state-layer-color, var(--mat-sys-on-primary));
+}
+.mat-mdc-unelevated-button.mat-mdc-button-disabled .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-filled-disabled-state-layer-color, var(--mat-sys-on-surface-variant));
+}
+.mat-mdc-unelevated-button:hover > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-filled-hover-state-layer-opacity, var(--mat-sys-hover-state-layer-opacity));
+}
+.mat-mdc-unelevated-button.cdk-program-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-unelevated-button.cdk-keyboard-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-unelevated-button.mat-mdc-button-disabled-interactive:focus > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-filled-focus-state-layer-opacity, var(--mat-sys-focus-state-layer-opacity));
+}
+.mat-mdc-unelevated-button:active > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-filled-pressed-state-layer-opacity, var(--mat-sys-pressed-state-layer-opacity));
+}
+.mat-mdc-unelevated-button .mat-mdc-button-touch-target {
+  position: absolute;
+  top: 50%;
+  height: var(--mat-button-filled-touch-target-size, 48px);
+  display: var(--mat-button-filled-touch-target-display, block);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+.mat-mdc-unelevated-button:not(:disabled) {
+  color: var(--mat-button-filled-label-text-color, var(--mat-sys-on-primary));
+  background-color: var(--mat-button-filled-container-color, var(--mat-sys-primary));
+}
+.mat-mdc-unelevated-button, .mat-mdc-unelevated-button .mdc-button__ripple {
+  border-radius: var(--mat-button-filled-container-shape, var(--mat-sys-corner-full));
+}
+.mat-mdc-unelevated-button[disabled], .mat-mdc-unelevated-button.mat-mdc-button-disabled {
+  cursor: default;
+  pointer-events: none;
+  color: var(--mat-button-filled-disabled-label-text-color, color-mix(in srgb, var(--mat-sys-on-surface) 38%, transparent));
+  background-color: var(--mat-button-filled-disabled-container-color, color-mix(in srgb, var(--mat-sys-on-surface) 12%, transparent));
+}
+.mat-mdc-unelevated-button.mat-mdc-button-disabled-interactive {
+  pointer-events: auto;
+}
+
+.mat-mdc-raised-button {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--mat-button-protected-container-elevation-shadow, var(--mat-sys-level1));
+  height: var(--mat-button-protected-container-height, 40px);
+  font-family: var(--mat-button-protected-label-text-font, var(--mat-sys-label-large-font));
+  font-size: var(--mat-button-protected-label-text-size, var(--mat-sys-label-large-size));
+  letter-spacing: var(--mat-button-protected-label-text-tracking, var(--mat-sys-label-large-tracking));
+  text-transform: var(--mat-button-protected-label-text-transform);
+  font-weight: var(--mat-button-protected-label-text-weight, var(--mat-sys-label-large-weight));
+  padding: 0 var(--mat-button-protected-horizontal-padding, 24px);
+}
+.mat-mdc-raised-button > .mat-icon {
+  margin-right: var(--mat-button-protected-icon-spacing, 8px);
+  margin-left: var(--mat-button-protected-icon-offset, -8px);
+}
+[dir=rtl] .mat-mdc-raised-button > .mat-icon {
+  margin-right: var(--mat-button-protected-icon-offset, -8px);
+  margin-left: var(--mat-button-protected-icon-spacing, 8px);
+}
+.mat-mdc-raised-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-protected-icon-offset, -8px);
+  margin-left: var(--mat-button-protected-icon-spacing, 8px);
+}
+[dir=rtl] .mat-mdc-raised-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-protected-icon-spacing, 8px);
+  margin-left: var(--mat-button-protected-icon-offset, -8px);
+}
+.mat-mdc-raised-button .mat-ripple-element {
+  background-color: var(--mat-button-protected-ripple-color, color-mix(in srgb, var(--mat-sys-primary) calc(var(--mat-sys-pressed-state-layer-opacity) * 100%), transparent));
+}
+.mat-mdc-raised-button .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-protected-state-layer-color, var(--mat-sys-primary));
+}
+.mat-mdc-raised-button.mat-mdc-button-disabled .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-protected-disabled-state-layer-color, var(--mat-sys-on-surface-variant));
+}
+.mat-mdc-raised-button:hover > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-protected-hover-state-layer-opacity, var(--mat-sys-hover-state-layer-opacity));
+}
+.mat-mdc-raised-button.cdk-program-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-raised-button.cdk-keyboard-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-raised-button.mat-mdc-button-disabled-interactive:focus > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-protected-focus-state-layer-opacity, var(--mat-sys-focus-state-layer-opacity));
+}
+.mat-mdc-raised-button:active > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-protected-pressed-state-layer-opacity, var(--mat-sys-pressed-state-layer-opacity));
+}
+.mat-mdc-raised-button .mat-mdc-button-touch-target {
+  position: absolute;
+  top: 50%;
+  height: var(--mat-button-protected-touch-target-size, 48px);
+  display: var(--mat-button-protected-touch-target-display, block);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+.mat-mdc-raised-button:not(:disabled) {
+  color: var(--mat-button-protected-label-text-color, var(--mat-sys-primary));
+  background-color: var(--mat-button-protected-container-color, var(--mat-sys-surface));
+}
+.mat-mdc-raised-button, .mat-mdc-raised-button .mdc-button__ripple {
+  border-radius: var(--mat-button-protected-container-shape, var(--mat-sys-corner-full));
+}
+@media (hover: hover) {
+  .mat-mdc-raised-button:hover {
+    box-shadow: var(--mat-button-protected-hover-container-elevation-shadow, var(--mat-sys-level2));
+  }
+}
+.mat-mdc-raised-button:focus {
+  box-shadow: var(--mat-button-protected-focus-container-elevation-shadow, var(--mat-sys-level1));
+}
+.mat-mdc-raised-button:active, .mat-mdc-raised-button:focus:active {
+  box-shadow: var(--mat-button-protected-pressed-container-elevation-shadow, var(--mat-sys-level1));
+}
+.mat-mdc-raised-button[disabled], .mat-mdc-raised-button.mat-mdc-button-disabled {
+  cursor: default;
+  pointer-events: none;
+  color: var(--mat-button-protected-disabled-label-text-color, color-mix(in srgb, var(--mat-sys-on-surface) 38%, transparent));
+  background-color: var(--mat-button-protected-disabled-container-color, color-mix(in srgb, var(--mat-sys-on-surface) 12%, transparent));
+}
+.mat-mdc-raised-button[disabled].mat-mdc-button-disabled, .mat-mdc-raised-button.mat-mdc-button-disabled.mat-mdc-button-disabled {
+  box-shadow: var(--mat-button-protected-disabled-container-elevation-shadow, var(--mat-sys-level0));
+}
+.mat-mdc-raised-button.mat-mdc-button-disabled-interactive {
+  pointer-events: auto;
+}
+
+.mat-mdc-outlined-button {
+  border-style: solid;
+  transition: border 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: var(--mat-button-outlined-container-height, 40px);
+  font-family: var(--mat-button-outlined-label-text-font, var(--mat-sys-label-large-font));
+  font-size: var(--mat-button-outlined-label-text-size, var(--mat-sys-label-large-size));
+  letter-spacing: var(--mat-button-outlined-label-text-tracking, var(--mat-sys-label-large-tracking));
+  text-transform: var(--mat-button-outlined-label-text-transform);
+  font-weight: var(--mat-button-outlined-label-text-weight, var(--mat-sys-label-large-weight));
+  border-radius: var(--mat-button-outlined-container-shape, var(--mat-sys-corner-full));
+  border-width: var(--mat-button-outlined-outline-width, 1px);
+  padding: 0 var(--mat-button-outlined-horizontal-padding, 24px);
+}
+.mat-mdc-outlined-button > .mat-icon {
+  margin-right: var(--mat-button-outlined-icon-spacing, 8px);
+  margin-left: var(--mat-button-outlined-icon-offset, -8px);
+}
+[dir=rtl] .mat-mdc-outlined-button > .mat-icon {
+  margin-right: var(--mat-button-outlined-icon-offset, -8px);
+  margin-left: var(--mat-button-outlined-icon-spacing, 8px);
+}
+.mat-mdc-outlined-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-outlined-icon-offset, -8px);
+  margin-left: var(--mat-button-outlined-icon-spacing, 8px);
+}
+[dir=rtl] .mat-mdc-outlined-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-outlined-icon-spacing, 8px);
+  margin-left: var(--mat-button-outlined-icon-offset, -8px);
+}
+.mat-mdc-outlined-button .mat-ripple-element {
+  background-color: var(--mat-button-outlined-ripple-color, color-mix(in srgb, var(--mat-sys-primary) calc(var(--mat-sys-pressed-state-layer-opacity) * 100%), transparent));
+}
+.mat-mdc-outlined-button .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-outlined-state-layer-color, var(--mat-sys-primary));
+}
+.mat-mdc-outlined-button.mat-mdc-button-disabled .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-outlined-disabled-state-layer-color, var(--mat-sys-on-surface-variant));
+}
+.mat-mdc-outlined-button:hover > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-outlined-hover-state-layer-opacity, var(--mat-sys-hover-state-layer-opacity));
+}
+.mat-mdc-outlined-button.cdk-program-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-outlined-button.cdk-keyboard-focused > .mat-mdc-button-persistent-ripple::before, .mat-mdc-outlined-button.mat-mdc-button-disabled-interactive:focus > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-outlined-focus-state-layer-opacity, var(--mat-sys-focus-state-layer-opacity));
+}
+.mat-mdc-outlined-button:active > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-outlined-pressed-state-layer-opacity, var(--mat-sys-pressed-state-layer-opacity));
+}
+.mat-mdc-outlined-button .mat-mdc-button-touch-target {
+  position: absolute;
+  top: 50%;
+  height: var(--mat-button-outlined-touch-target-size, 48px);
+  display: var(--mat-button-outlined-touch-target-display, block);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+.mat-mdc-outlined-button:not(:disabled) {
+  color: var(--mat-button-outlined-label-text-color, var(--mat-sys-primary));
+  border-color: var(--mat-button-outlined-outline-color, var(--mat-sys-outline));
+}
+.mat-mdc-outlined-button[disabled], .mat-mdc-outlined-button.mat-mdc-button-disabled {
+  cursor: default;
+  pointer-events: none;
+  color: var(--mat-button-outlined-disabled-label-text-color, color-mix(in srgb, var(--mat-sys-on-surface) 38%, transparent));
+  border-color: var(--mat-button-outlined-disabled-outline-color, color-mix(in srgb, var(--mat-sys-on-surface) 12%, transparent));
+}
+.mat-mdc-outlined-button.mat-mdc-button-disabled-interactive {
+  pointer-events: auto;
+}
+
+.mat-tonal-button {
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: var(--mat-button-tonal-container-height, 40px);
+  font-family: var(--mat-button-tonal-label-text-font, var(--mat-sys-label-large-font));
+  font-size: var(--mat-button-tonal-label-text-size, var(--mat-sys-label-large-size));
+  letter-spacing: var(--mat-button-tonal-label-text-tracking, var(--mat-sys-label-large-tracking));
+  text-transform: var(--mat-button-tonal-label-text-transform);
+  font-weight: var(--mat-button-tonal-label-text-weight, var(--mat-sys-label-large-weight));
+  padding: 0 var(--mat-button-tonal-horizontal-padding, 24px);
+}
+.mat-tonal-button:not(:disabled) {
+  color: var(--mat-button-tonal-label-text-color, var(--mat-sys-on-secondary-container));
+  background-color: var(--mat-button-tonal-container-color, var(--mat-sys-secondary-container));
+}
+.mat-tonal-button, .mat-tonal-button .mdc-button__ripple {
+  border-radius: var(--mat-button-tonal-container-shape, var(--mat-sys-corner-full));
+}
+.mat-tonal-button[disabled], .mat-tonal-button.mat-mdc-button-disabled {
+  cursor: default;
+  pointer-events: none;
+  color: var(--mat-button-tonal-disabled-label-text-color, color-mix(in srgb, var(--mat-sys-on-surface) 38%, transparent));
+  background-color: var(--mat-button-tonal-disabled-container-color, color-mix(in srgb, var(--mat-sys-on-surface) 12%, transparent));
+}
+.mat-tonal-button.mat-mdc-button-disabled-interactive {
+  pointer-events: auto;
+}
+.mat-tonal-button > .mat-icon {
+  margin-right: var(--mat-button-tonal-icon-spacing, 8px);
+  margin-left: var(--mat-button-tonal-icon-offset, -8px);
+}
+[dir=rtl] .mat-tonal-button > .mat-icon {
+  margin-right: var(--mat-button-tonal-icon-offset, -8px);
+  margin-left: var(--mat-button-tonal-icon-spacing, 8px);
+}
+.mat-tonal-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-tonal-icon-offset, -8px);
+  margin-left: var(--mat-button-tonal-icon-spacing, 8px);
+}
+[dir=rtl] .mat-tonal-button .mdc-button__label + .mat-icon {
+  margin-right: var(--mat-button-tonal-icon-spacing, 8px);
+  margin-left: var(--mat-button-tonal-icon-offset, -8px);
+}
+.mat-tonal-button .mat-ripple-element {
+  background-color: var(--mat-button-tonal-ripple-color, color-mix(in srgb, var(--mat-sys-on-secondary-container) calc(var(--mat-sys-pressed-state-layer-opacity) * 100%), transparent));
+}
+.mat-tonal-button .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-tonal-state-layer-color, var(--mat-sys-on-secondary-container));
+}
+.mat-tonal-button.mat-mdc-button-disabled .mat-mdc-button-persistent-ripple::before {
+  background-color: var(--mat-button-tonal-disabled-state-layer-color, var(--mat-sys-on-surface-variant));
+}
+.mat-tonal-button:hover > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-tonal-hover-state-layer-opacity, var(--mat-sys-hover-state-layer-opacity));
+}
+.mat-tonal-button.cdk-program-focused > .mat-mdc-button-persistent-ripple::before, .mat-tonal-button.cdk-keyboard-focused > .mat-mdc-button-persistent-ripple::before, .mat-tonal-button.mat-mdc-button-disabled-interactive:focus > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-tonal-focus-state-layer-opacity, var(--mat-sys-focus-state-layer-opacity));
+}
+.mat-tonal-button:active > .mat-mdc-button-persistent-ripple::before {
+  opacity: var(--mat-button-tonal-pressed-state-layer-opacity, var(--mat-sys-pressed-state-layer-opacity));
+}
+.mat-tonal-button .mat-mdc-button-touch-target {
+  position: absolute;
+  top: 50%;
+  height: var(--mat-button-tonal-touch-target-size, 48px);
+  display: var(--mat-button-tonal-touch-target-display, block);
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.mat-mdc-button,
+.mat-mdc-unelevated-button,
+.mat-mdc-raised-button,
+.mat-mdc-outlined-button,
+.mat-tonal-button {
+  -webkit-tap-highlight-color: transparent;
+}
+.mat-mdc-button .mat-mdc-button-ripple,
+.mat-mdc-button .mat-mdc-button-persistent-ripple,
+.mat-mdc-button .mat-mdc-button-persistent-ripple::before,
+.mat-mdc-unelevated-button .mat-mdc-button-ripple,
+.mat-mdc-unelevated-button .mat-mdc-button-persistent-ripple,
+.mat-mdc-unelevated-button .mat-mdc-button-persistent-ripple::before,
+.mat-mdc-raised-button .mat-mdc-button-ripple,
+.mat-mdc-raised-button .mat-mdc-button-persistent-ripple,
+.mat-mdc-raised-button .mat-mdc-button-persistent-ripple::before,
+.mat-mdc-outlined-button .mat-mdc-button-ripple,
+.mat-mdc-outlined-button .mat-mdc-button-persistent-ripple,
+.mat-mdc-outlined-button .mat-mdc-button-persistent-ripple::before,
+.mat-tonal-button .mat-mdc-button-ripple,
+.mat-tonal-button .mat-mdc-button-persistent-ripple,
+.mat-tonal-button .mat-mdc-button-persistent-ripple::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  border-radius: inherit;
+}
+.mat-mdc-button .mat-mdc-button-ripple,
+.mat-mdc-unelevated-button .mat-mdc-button-ripple,
+.mat-mdc-raised-button .mat-mdc-button-ripple,
+.mat-mdc-outlined-button .mat-mdc-button-ripple,
+.mat-tonal-button .mat-mdc-button-ripple {
+  overflow: hidden;
+}
+.mat-mdc-button .mat-mdc-button-persistent-ripple::before,
+.mat-mdc-unelevated-button .mat-mdc-button-persistent-ripple::before,
+.mat-mdc-raised-button .mat-mdc-button-persistent-ripple::before,
+.mat-mdc-outlined-button .mat-mdc-button-persistent-ripple::before,
+.mat-tonal-button .mat-mdc-button-persistent-ripple::before {
+  content: "";
+  opacity: 0;
+}
+.mat-mdc-button .mdc-button__label,
+.mat-mdc-button .mat-icon,
+.mat-mdc-unelevated-button .mdc-button__label,
+.mat-mdc-unelevated-button .mat-icon,
+.mat-mdc-raised-button .mdc-button__label,
+.mat-mdc-raised-button .mat-icon,
+.mat-mdc-outlined-button .mdc-button__label,
+.mat-mdc-outlined-button .mat-icon,
+.mat-tonal-button .mdc-button__label,
+.mat-tonal-button .mat-icon {
+  z-index: 1;
+  position: relative;
+}
+.mat-mdc-button .mat-focus-indicator,
+.mat-mdc-unelevated-button .mat-focus-indicator,
+.mat-mdc-raised-button .mat-focus-indicator,
+.mat-mdc-outlined-button .mat-focus-indicator,
+.mat-tonal-button .mat-focus-indicator {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-radius: inherit;
+}
+.mat-mdc-button:focus-visible > .mat-focus-indicator::before,
+.mat-mdc-unelevated-button:focus-visible > .mat-focus-indicator::before,
+.mat-mdc-raised-button:focus-visible > .mat-focus-indicator::before,
+.mat-mdc-outlined-button:focus-visible > .mat-focus-indicator::before,
+.mat-tonal-button:focus-visible > .mat-focus-indicator::before {
+  content: "";
+  border-radius: inherit;
+}
+.mat-mdc-button._mat-animation-noopable,
+.mat-mdc-unelevated-button._mat-animation-noopable,
+.mat-mdc-raised-button._mat-animation-noopable,
+.mat-mdc-outlined-button._mat-animation-noopable,
+.mat-tonal-button._mat-animation-noopable {
+  transition: none !important;
+  animation: none !important;
+}
+.mat-mdc-button > .mat-icon,
+.mat-mdc-unelevated-button > .mat-icon,
+.mat-mdc-raised-button > .mat-icon,
+.mat-mdc-outlined-button > .mat-icon,
+.mat-tonal-button > .mat-icon {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  font-size: 1.125rem;
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+.mat-mdc-outlined-button .mat-mdc-button-ripple,
+.mat-mdc-outlined-button .mdc-button__ripple {
+  top: -1px;
+  left: -1px;
+  bottom: -1px;
+  right: -1px;
+}
+
+.mat-mdc-unelevated-button .mat-focus-indicator::before,
+.mat-tonal-button .mat-focus-indicator::before,
+.mat-mdc-raised-button .mat-focus-indicator::before {
+  margin: calc(calc(var(--mat-focus-indicator-border-width, 3px) + 2px) * -1);
+}
+
+.mat-mdc-outlined-button .mat-focus-indicator::before {
+  margin: calc(calc(var(--mat-focus-indicator-border-width, 3px) + 3px) * -1);
+}
+</style><style ng-app-id="ng">@media (forced-colors: active) {
+  .mat-mdc-button:not(.mdc-button--outlined),
+  .mat-mdc-unelevated-button:not(.mdc-button--outlined),
+  .mat-mdc-raised-button:not(.mdc-button--outlined),
+  .mat-mdc-outlined-button:not(.mdc-button--outlined),
+  .mat-mdc-button-base.mat-tonal-button,
+  .mat-mdc-icon-button.mat-mdc-icon-button,
+  .mat-mdc-outlined-button .mdc-button__ripple {
+    outline: solid 1px;
+  }
+}
+</style><style ng-app-id="ng">.mat-focus-indicator {
+  position: relative;
+}
+.mat-focus-indicator::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  box-sizing: border-box;
+  pointer-events: none;
+  display: var(--mat-focus-indicator-display, none);
+  border-width: var(--mat-focus-indicator-border-width, 3px);
+  border-style: var(--mat-focus-indicator-border-style, solid);
+  border-color: var(--mat-focus-indicator-border-color, transparent);
+  border-radius: var(--mat-focus-indicator-border-radius, 4px);
+}
+.mat-focus-indicator:focus-visible::before {
+  content: "";
+}
+
+@media (forced-colors: active) {
+  html {
+    --mat-focus-indicator-display: block;
+  }
+}
+</style><style ng-app-id="ng">.service-areas-page[_ngcontent-ng-c3879638520]{width:min(100%,var(--container));margin:0 auto;padding:2rem 1.5rem 4rem;background:var(--bg)}.hero-section[_ngcontent-ng-c3879638520], .coverage-stats[_ngcontent-ng-c3879638520], .service-areas-section[_ngcontent-ng-c3879638520], .interactive-map-section[_ngcontent-ng-c3879638520], .why-choose-us[_ngcontent-ng-c3879638520], .available-services[_ngcontent-ng-c3879638520], .response-time[_ngcontent-ng-c3879638520], .customer-reviews[_ngcontent-ng-c3879638520], .faq-section[_ngcontent-ng-c3879638520], .contact-cta[_ngcontent-ng-c3879638520]{padding:3rem 0}.hero-section[_ngcontent-ng-c3879638520]{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:3rem}.hero-content[_ngcontent-ng-c3879638520]{display:grid;grid-template-columns:1.1fr minmax(320px,.9fr);gap:2.5rem;align-items:center}.hero-title[_ngcontent-ng-c3879638520]{font-size:clamp(2.8rem,4vw,4.2rem);margin-bottom:1rem;color:var(--text-dark)}.hero-subtitle[_ngcontent-ng-c3879638520]{max-width:620px}.hero-buttons[_ngcontent-ng-c3879638520]{display:flex;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}.hero-illustration[_ngcontent-ng-c3879638520]{position:relative}.illustration-card[_ngcontent-ng-c3879638520]{background:linear-gradient(135deg,var(--surface) 0%,rgba(37,99,235,.12) 100%);padding:2.5rem;border-radius:28px;box-shadow:var(--shadow-md)}.illustration-content[_ngcontent-ng-c3879638520]{text-align:center}.coverage-stats[_ngcontent-ng-c3879638520]   .stats-container[_ngcontent-ng-c3879638520], .benefits-grid[_ngcontent-ng-c3879638520], .services-grid[_ngcontent-ng-c3879638520], .response-timeline[_ngcontent-ng-c3879638520], .testimonials-container[_ngcontent-ng-c3879638520], .faq-container[_ngcontent-ng-c3879638520], .contact-details[_ngcontent-ng-c3879638520], .areas-grid[_ngcontent-ng-c3879638520], .service-card[_ngcontent-ng-c3879638520], .benefit-card[_ngcontent-ng-c3879638520], .testimonial-card[_ngcontent-ng-c3879638520], .timeline-card[_ngcontent-ng-c3879638520], .faq-item[_ngcontent-ng-c3879638520]{display:grid;gap:1.5rem}.stats-container[_ngcontent-ng-c3879638520]{grid-template-columns:repeat(4,minmax(0,1fr));gap:1.25rem}.stat-card[_ngcontent-ng-c3879638520]{padding:2rem;background:var(--surface);border:1px solid var(--border)}.stat-number[_ngcontent-ng-c3879638520]{font-size:2.75rem;color:var(--text-dark)}.section-header[_ngcontent-ng-c3879638520], .section-header[_ngcontent-ng-c3879638520]   h2[_ngcontent-ng-c3879638520], .section-header[_ngcontent-ng-c3879638520]   p[_ngcontent-ng-c3879638520]{text-align:center}.areas-grid[_ngcontent-ng-c3879638520], .benefits-grid[_ngcontent-ng-c3879638520], .services-grid[_ngcontent-ng-c3879638520], .testimonials-container[_ngcontent-ng-c3879638520], .contact-details[_ngcontent-ng-c3879638520], .faq-container[_ngcontent-ng-c3879638520], .service-card[_ngcontent-ng-c3879638520], .benefit-card[_ngcontent-ng-c3879638520], .timeline-card[_ngcontent-ng-c3879638520], .faq-item[_ngcontent-ng-c3879638520]{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.area-card[_ngcontent-ng-c3879638520], .benefit-card[_ngcontent-ng-c3879638520], .service-card[_ngcontent-ng-c3879638520], .timeline-card[_ngcontent-ng-c3879638520], .testimonial-card[_ngcontent-ng-c3879638520], .faq-item[_ngcontent-ng-c3879638520], .map-info[_ngcontent-ng-c3879638520], .contact-panel[_ngcontent-ng-c3879638520], .contact-panel[_ngcontent-ng-c3879638520]   a[_ngcontent-ng-c3879638520], .contact-item[_ngcontent-ng-c3879638520], .cta-shell[_ngcontent-ng-c3879638520]{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-sm)}.area-card[_ngcontent-ng-c3879638520], .benefit-card[_ngcontent-ng-c3879638520], .service-card[_ngcontent-ng-c3879638520], .timeline-card[_ngcontent-ng-c3879638520], .testimonial-card[_ngcontent-ng-c3879638520], .faq-item[_ngcontent-ng-c3879638520]{padding:1.75rem}.area-card[_ngcontent-ng-c3879638520]:hover, .benefit-card[_ngcontent-ng-c3879638520]:hover, .service-card[_ngcontent-ng-c3879638520]:hover, .timeline-card[_ngcontent-ng-c3879638520]:hover, .testimonial-card[_ngcontent-ng-c3879638520]:hover, .faq-question.open[_ngcontent-ng-c3879638520]{border-color:#2563eb2e}.area-name[_ngcontent-ng-c3879638520], .benefit-title[_ngcontent-ng-c3879638520], .service-name[_ngcontent-ng-c3879638520], .timeline-card[_ngcontent-ng-c3879638520]   h3[_ngcontent-ng-c3879638520], .testimonial-header[_ngcontent-ng-c3879638520]   h4[_ngcontent-ng-c3879638520], .faq-question[_ngcontent-ng-c3879638520]{color:var(--text-dark)}.area-link[_ngcontent-ng-c3879638520], .service-link[_ngcontent-ng-c3879638520], .cta-buttons[_ngcontent-ng-c3879638520]   .btn[_ngcontent-ng-c3879638520], .cta-buttons[_ngcontent-ng-c3879638520]   .btn-primary[_ngcontent-ng-c3879638520], .cta-buttons[_ngcontent-ng-c3879638520]   .btn-secondary[_ngcontent-ng-c3879638520], .cta-buttons[_ngcontent-ng-c3879638520]   .btn-tertiary[_ngcontent-ng-c3879638520]{min-width:auto}.area-link[_ngcontent-ng-c3879638520], .service-link[_ngcontent-ng-c3879638520], .action-link[_ngcontent-ng-c3879638520]{display:inline-flex;align-items:center;gap:.35rem;color:var(--color-primary)}.interactive-map-section[_ngcontent-ng-c3879638520]   .map-container[_ngcontent-ng-c3879638520]{grid-template-columns:1.5fr 1fr}.map-placeholder[_ngcontent-ng-c3879638520]{min-height:420px;border-radius:var(--radius);overflow:hidden;background:var(--surface-soft);border:1px solid var(--border)}.map-info[_ngcontent-ng-c3879638520]{padding:2rem}.response-timeline[_ngcontent-ng-c3879638520]{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;position:relative}.response-timeline[_ngcontent-ng-c3879638520]:before{display:none}.timeline-card[_ngcontent-ng-c3879638520]{padding:2rem}.timeline-icon[_ngcontent-ng-c3879638520]{margin:0 auto 1rem;width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:#2563eb14;color:var(--color-primary)}.customer-reviews[_ngcontent-ng-c3879638520]   .reviews-stats[_ngcontent-ng-c3879638520], .customer-reviews[_ngcontent-ng-c3879638520]   .testimonial-card[_ngcontent-ng-c3879638520], .faq-container[_ngcontent-ng-c3879638520]{display:grid;gap:1.5rem}.testimonials-container[_ngcontent-ng-c3879638520]{grid-template-columns:1.5fr 1fr;gap:1.5rem}.review-text[_ngcontent-ng-c3879638520]{font-style:italic}.faq-item[_ngcontent-ng-c3879638520]{overflow:hidden}.faq-question[_ngcontent-ng-c3879638520]{width:100%;padding:1.5rem;background:transparent;border:none;text-align:left;font-weight:700;color:var(--text-dark);display:flex;justify-content:space-between;align-items:center}.faq-answer[_ngcontent-ng-c3879638520]{max-height:0;overflow:hidden;transition:max-height .35s ease}.faq-answer.show[_ngcontent-ng-c3879638520]{max-height:400px}.contact-cta[_ngcontent-ng-c3879638520]{position:relative}.cta-content[_ngcontent-ng-c3879638520]{position:relative;z-index:1;padding:3rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow-md)}.cta-buttons[_ngcontent-ng-c3879638520]{display:grid;gap:1rem;grid-template-columns:repeat(3,minmax(0,1fr))}.contact-details[_ngcontent-ng-c3879638520]{grid-template-columns:repeat(3,minmax(220px,1fr))}.contact-item[_ngcontent-ng-c3879638520]{display:flex;gap:1rem;color:var(--text-dark)}.contact-icon[_ngcontent-ng-c3879638520]{font-size:1.75rem}.contact-item[_ngcontent-ng-c3879638520]   .label[_ngcontent-ng-c3879638520]{color:var(--text-muted)}@media(max-width:980px){.hero-content[_ngcontent-ng-c3879638520], .stats-container[_ngcontent-ng-c3879638520], .areas-grid[_ngcontent-ng-c3879638520], .map-container[_ngcontent-ng-c3879638520], .testimonials-container[_ngcontent-ng-c3879638520], .response-timeline[_ngcontent-ng-c3879638520], .faq-container[_ngcontent-ng-c3879638520], .cta-buttons[_ngcontent-ng-c3879638520], .contact-details[_ngcontent-ng-c3879638520]{grid-template-columns:1fr}}</style></head>
+<body><!--nghm--><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
+</script><script>window.__jsaction_bootstrap(document.body,"ng",["click"],[]);</script>
+  <app-root ng-version="21.2.20" _nghost-ng-c588981805 ngh="4" ng-server-context="ssg"><header _ngcontent-ng-c588981805 class="site-header"><div _ngcontent-ng-c588981805 class="navbar-container"><a _ngcontent-ng-c588981805 routerlink="/" class="brand-section" href="/" jsaction="click:;"><img _ngcontent-ng-c588981805 src="/assets/ishvanta-logo.png" alt="Ishvanta Services Logo" class="navbar-logo"></a><nav _ngcontent-ng-c588981805 class="nav-menu"><a _ngcontent-ng-c588981805 mat-button routerlink="/" routerlinkactive="active" class="mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed _mat-animation-noopable" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/" ngh="0" jsaction="click:;"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">Home</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a><a _ngcontent-ng-c588981805 mat-button routerlink="/about" routerlinkactive="active" class="mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed _mat-animation-noopable" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/about" ngh="0" jsaction="click:;"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">About Us</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a><a _ngcontent-ng-c588981805 mat-button routerlink="/services" routerlinkactive="active" class="mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed _mat-animation-noopable" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/services" ngh="0" jsaction="click:;"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">Services</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a><a _ngcontent-ng-c588981805 mat-button routerlink="/our-work" routerlinkactive="active" class="mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed _mat-animation-noopable" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/our-work" ngh="0" jsaction="click:;"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">Our Work</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a><a _ngcontent-ng-c588981805 mat-button routerlink="/reviews" routerlinkactive="active" class="mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed _mat-animation-noopable" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/reviews" ngh="0" jsaction="click:;"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">Reviews</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a><a _ngcontent-ng-c588981805 mat-button routerlink="/service-areas" routerlinkactive="active" class="mdc-button mat-mdc-button-base mat-mdc-button mat-unthemed _mat-animation-noopable active" mat-ripple-loader-uninitialized mat-ripple-loader-class-name="mat-mdc-button-ripple" href="/service-areas" ngh="0" jsaction="click:;"><span class="mat-mdc-button-persistent-ripple mdc-button__ripple"></span><span class="mdc-button__label">Service Areas</span><span class="mat-focus-indicator"></span><span class="mat-mdc-button-touch-target"></span></a></nav><!----><div _ngcontent-ng-c588981805 class="header-actions"><a _ngcontent-ng-c588981805 routerlink="/contact" class="btn btn-primary nav-cta" href="/contact" jsaction="click:;">Contact Us</a><button _ngcontent-ng-c588981805 type="button" aria-label="Toggle menu" class="hamburger-btn" jsaction="click:;"><span _ngcontent-ng-c588981805 class="hamburger-icon"></span></button></div></div></header><!----><main _ngcontent-ng-c588981805 class="page-shell"><router-outlet _ngcontent-ng-c588981805></router-outlet><app-service-areas _nghost-ng-c3879638520 ngh="1"><div _ngcontent-ng-c3879638520 class="service-areas-page"><section _ngcontent-ng-c3879638520 class="hero-section"><div _ngcontent-ng-c3879638520 class="hero-content"><div _ngcontent-ng-c3879638520 class="hero-text"><h1 _ngcontent-ng-c3879638520 class="hero-title">Professional Home Services Across Vadodara</h1><p _ngcontent-ng-c3879638520 class="hero-subtitle">We provide fast, reliable and affordable home maintenance services across Vadodara and nearby locations.</p><div _ngcontent-ng-c3879638520 class="hero-buttons"><button _ngcontent-ng-c3879638520 class="btn btn-primary" jsaction="click:;">Book a Service</button><a _ngcontent-ng-c3879638520 href="https://wa.me/918849701206" target="_blank" rel="noreferrer" class="btn btn-secondary"><span _ngcontent-ng-c3879638520 class="whatsapp-icon">💬</span> WhatsApp Now </a><button _ngcontent-ng-c3879638520 class="btn btn-tertiary" jsaction="click:;">View Coverage Map</button></div><div _ngcontent-ng-c3879638520 class="hero-quick-info"><div _ngcontent-ng-c3879638520 class="info-item"><span _ngcontent-ng-c3879638520 class="info-icon">✓</span><span _ngcontent-ng-c3879638520 class="info-text">Same Day Service Available</span></div><div _ngcontent-ng-c3879638520 class="info-item"><span _ngcontent-ng-c3879638520 class="info-icon">⏱️</span><span _ngcontent-ng-c3879638520 class="info-text">30-60 Min Response Time</span></div></div></div><div _ngcontent-ng-c3879638520 class="hero-illustration"><div _ngcontent-ng-c3879638520 class="illustration-card"><div _ngcontent-ng-c3879638520 class="illustration-content"><div _ngcontent-ng-c3879638520 class="tech-icon">👨‍🔧</div><div _ngcontent-ng-c3879638520 class="location-badge">📍 Vadodara Region</div></div></div></div></div><div _ngcontent-ng-c3879638520 class="hero-background"><div _ngcontent-ng-c3879638520 class="gradient-shape shape-1"></div><div _ngcontent-ng-c3879638520 class="gradient-shape shape-2"></div></div></section><section _ngcontent-ng-c3879638520 class="coverage-stats"><div _ngcontent-ng-c3879638520 class="stats-container"><div _ngcontent-ng-c3879638520 class="stat-card"><div _ngcontent-ng-c3879638520 class="stat-number">0+</div><div _ngcontent-ng-c3879638520 class="stat-label">Jobs Completed</div></div><div _ngcontent-ng-c3879638520 class="stat-card"><div _ngcontent-ng-c3879638520 class="stat-number">0+</div><div _ngcontent-ng-c3879638520 class="stat-label">Happy Customers</div></div><div _ngcontent-ng-c3879638520 class="stat-card"><div _ngcontent-ng-c3879638520 class="stat-number">0+</div><div _ngcontent-ng-c3879638520 class="stat-label">Service Areas</div></div><div _ngcontent-ng-c3879638520 class="stat-card"><div _ngcontent-ng-c3879638520 class="stat-number">0%</div><div _ngcontent-ng-c3879638520 class="stat-label">Same Day Service</div></div></div></section><section _ngcontent-ng-c3879638520 class="service-areas-section"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>Our Service Coverage Areas</h2><p _ngcontent-ng-c3879638520>Premium home services available in all these locations</p></div><div _ngcontent-ng-c3879638520 class="areas-grid"><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Vadodara</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Manjalpur</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Tarsali</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Makarpura</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Waghodia</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Karelibaug</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Gotri</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Akota</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Sama</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Harni</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><div _ngcontent-ng-c3879638520 class="area-card premium-card"><div _ngcontent-ng-c3879638520 class="area-icon">📍</div><h3 _ngcontent-ng-c3879638520 class="area-name">Ajwa</h3><p _ngcontent-ng-c3879638520 class="area-service">Same Day Service Available</p><button _ngcontent-ng-c3879638520 class="area-link" jsaction="click:;">Get Service →</button></div><!----></div></section><section _ngcontent-ng-c3879638520 id="interactive-map" class="interactive-map-section"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>Serving Customers Across Vadodara</h2><p _ngcontent-ng-c3879638520>We cover all major neighborhoods and surrounding areas</p></div><div _ngcontent-ng-c3879638520 class="map-container"><div _ngcontent-ng-c3879638520 class="map-placeholder"><iframe _ngcontent-ng-c3879638520 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118395.35999662997!2d73.1305!3d22.3072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcb5778b5d8d1%3A0x2ff006c0b58a6e5!2sVadodara!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="100%" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border: none; border-radius: 20px;"></iframe></div><div _ngcontent-ng-c3879638520 class="map-info"><h3 _ngcontent-ng-c3879638520>Coverage Area</h3><p _ngcontent-ng-c3879638520>Serving customers across Vadodara and nearby areas including:</p><ul _ngcontent-ng-c3879638520 class="coverage-list"><li _ngcontent-ng-c3879638520>✓ All residential areas</li><li _ngcontent-ng-c3879638520>✓ Commercial properties</li><li _ngcontent-ng-c3879638520>✓ Modern apartments and villas</li><li _ngcontent-ng-c3879638520>✓ Industrial locations</li></ul></div></div></section><section _ngcontent-ng-c3879638520 class="why-choose-us"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>Why Customers Choose Ishvanta</h2><p _ngcontent-ng-c3879638520>Premium service quality with professional excellence</p></div><div _ngcontent-ng-c3879638520 class="benefits-grid"><div _ngcontent-ng-c3879638520 class="benefit-card premium-card"><div _ngcontent-ng-c3879638520 class="benefit-icon">✓</div><h3 _ngcontent-ng-c3879638520 class="benefit-title">Verified Technicians</h3><p _ngcontent-ng-c3879638520 class="benefit-description">Professional and certified staff</p></div><div _ngcontent-ng-c3879638520 class="benefit-card premium-card"><div _ngcontent-ng-c3879638520 class="benefit-icon">⏱️</div><h3 _ngcontent-ng-c3879638520 class="benefit-title">Same Day Visit</h3><p _ngcontent-ng-c3879638520 class="benefit-description">Fast service when you need it</p></div><div _ngcontent-ng-c3879638520 class="benefit-card premium-card"><div _ngcontent-ng-c3879638520 class="benefit-icon">💰</div><h3 _ngcontent-ng-c3879638520 class="benefit-title">Transparent Pricing</h3><p _ngcontent-ng-c3879638520 class="benefit-description">No hidden charges or surprises</p></div><div _ngcontent-ng-c3879638520 class="benefit-card premium-card"><div _ngcontent-ng-c3879638520 class="benefit-icon">⭐</div><h3 _ngcontent-ng-c3879638520 class="benefit-title">Quality Service</h3><p _ngcontent-ng-c3879638520 class="benefit-description">Excellence in every job</p></div><div _ngcontent-ng-c3879638520 class="benefit-card premium-card"><div _ngcontent-ng-c3879638520 class="benefit-icon">📞</div><h3 _ngcontent-ng-c3879638520 class="benefit-title">Fast Response</h3><p _ngcontent-ng-c3879638520 class="benefit-description">30-60 minutes response time</p></div><div _ngcontent-ng-c3879638520 class="benefit-card premium-card"><div _ngcontent-ng-c3879638520 class="benefit-icon">😊</div><h3 _ngcontent-ng-c3879638520 class="benefit-title">Customer Satisfaction</h3><p _ngcontent-ng-c3879638520 class="benefit-description">100% satisfaction guarantee</p></div><!----></div></section><section _ngcontent-ng-c3879638520 class="available-services"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>Services We Provide</h2><p _ngcontent-ng-c3879638520>Complete home maintenance solutions under one roof</p></div><div _ngcontent-ng-c3879638520 class="services-grid"><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">⚡</div><h3 _ngcontent-ng-c3879638520 class="service-name">Electrical</h3><p _ngcontent-ng-c3879638520 class="service-description">Expert electrical installations and repairs</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">🔧</div><h3 _ngcontent-ng-c3879638520 class="service-name">Plumbing</h3><p _ngcontent-ng-c3879638520 class="service-description">Complete plumbing solutions</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">❄️</div><h3 _ngcontent-ng-c3879638520 class="service-name">AC &amp; Fridge</h3><p _ngcontent-ng-c3879638520 class="service-description">Cooling system maintenance</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">🛋️</div><h3 _ngcontent-ng-c3879638520 class="service-name">Furniture</h3><p _ngcontent-ng-c3879638520 class="service-description">Furniture assembly and repair</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">🎨</div><h3 _ngcontent-ng-c3879638520 class="service-name">House Painting</h3><p _ngcontent-ng-c3879638520 class="service-description">Interior and exterior painting</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">🍳</div><h3 _ngcontent-ng-c3879638520 class="service-name">Kitchen Appliances</h3><p _ngcontent-ng-c3879638520 class="service-description">Appliance repair and service</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">🔩</div><h3 _ngcontent-ng-c3879638520 class="service-name">Fabrication</h3><p _ngcontent-ng-c3879638520 class="service-description">Metal and steel fabrication</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">📹</div><h3 _ngcontent-ng-c3879638520 class="service-name">CCTV</h3><p _ngcontent-ng-c3879638520 class="service-description">CCTV installation and setup</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><div _ngcontent-ng-c3879638520 class="service-card premium-card"><div _ngcontent-ng-c3879638520 class="service-icon">🏍️</div><h3 _ngcontent-ng-c3879638520 class="service-name">Two Wheeler</h3><p _ngcontent-ng-c3879638520 class="service-description">Bike maintenance services</p><a _ngcontent-ng-c3879638520 href="#" class="service-link">Learn More →</a></div><!----></div></section><section _ngcontent-ng-c3879638520 class="response-time"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>Our Response Time</h2><p _ngcontent-ng-c3879638520>We're always ready to serve you</p></div><div _ngcontent-ng-c3879638520 class="response-timeline"><div _ngcontent-ng-c3879638520 class="timeline-card"><div _ngcontent-ng-c3879638520 class="timeline-icon emergency">🚨</div><h3 _ngcontent-ng-c3879638520>Emergency Calls</h3><p _ngcontent-ng-c3879638520 class="response-time-text">30–60 Minutes</p><p _ngcontent-ng-c3879638520 class="disclaimer">Depending on location and technician availability</p></div><div _ngcontent-ng-c3879638520 class="timeline-connector"></div><div _ngcontent-ng-c3879638520 class="timeline-card"><div _ngcontent-ng-c3879638520 class="timeline-icon standard">📅</div><h3 _ngcontent-ng-c3879638520>Standard Booking</h3><p _ngcontent-ng-c3879638520 class="response-time-text">Same Day</p><p _ngcontent-ng-c3879638520 class="disclaimer">Service on the same day</p></div><div _ngcontent-ng-c3879638520 class="timeline-connector"></div><div _ngcontent-ng-c3879638520 class="timeline-card"><div _ngcontent-ng-c3879638520 class="timeline-icon scheduled">⏰</div><h3 _ngcontent-ng-c3879638520>Scheduled Booking</h3><p _ngcontent-ng-c3879638520 class="response-time-text">Your Preferred Time</p><p _ngcontent-ng-c3879638520 class="disclaimer">Book for a date and time you prefer</p></div></div></section><section _ngcontent-ng-c3879638520 class="customer-reviews"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>What Our Customers Say</h2><p _ngcontent-ng-c3879638520>Real experiences from satisfied customers</p></div><div _ngcontent-ng-c3879638520 class="testimonials-container"><div _ngcontent-ng-c3879638520 class="testimonial-card premium-card"><div _ngcontent-ng-c3879638520 class="testimonial-header"><div _ngcontent-ng-c3879638520 class="customer-avatar">👨‍💼</div><div _ngcontent-ng-c3879638520 class="customer-info"><h4 _ngcontent-ng-c3879638520>Rajesh Kumar</h4><p _ngcontent-ng-c3879638520>Vadodara • Electrical</p></div></div><div _ngcontent-ng-c3879638520 class="stars"><span _ngcontent-ng-c3879638520 class="star filled">⭐</span><span _ngcontent-ng-c3879638520 class="star filled">⭐</span><span _ngcontent-ng-c3879638520 class="star filled">⭐</span><span _ngcontent-ng-c3879638520 class="star filled">⭐</span><span _ngcontent-ng-c3879638520 class="star filled">⭐</span><!----></div><p _ngcontent-ng-c3879638520 class="review-text">Excellent service! The technician was very professional and fixed the electrical issue quickly.</p><div _ngcontent-ng-c3879638520 class="testimonial-indicators"><button _ngcontent-ng-c3879638520 class="indicator active" jsaction="click:;"></button><button _ngcontent-ng-c3879638520 class="indicator" jsaction="click:;"></button><button _ngcontent-ng-c3879638520 class="indicator" jsaction="click:;"></button><button _ngcontent-ng-c3879638520 class="indicator" jsaction="click:;"></button><!----></div></div><div _ngcontent-ng-c3879638520 class="testimonials-stats"><div _ngcontent-ng-c3879638520 class="stat"><div _ngcontent-ng-c3879638520 class="stat-value">4.9★</div><div _ngcontent-ng-c3879638520 class="stat-text">Average Rating</div></div><div _ngcontent-ng-c3879638520 class="stat"><div _ngcontent-ng-c3879638520 class="stat-value">500+</div><div _ngcontent-ng-c3879638520 class="stat-text">Reviews</div></div><div _ngcontent-ng-c3879638520 class="stat"><div _ngcontent-ng-c3879638520 class="stat-value">98%</div><div _ngcontent-ng-c3879638520 class="stat-text">Satisfaction</div></div></div></div></section><section _ngcontent-ng-c3879638520 class="faq-section"><div _ngcontent-ng-c3879638520 class="section-header"><h2 _ngcontent-ng-c3879638520>Frequently Asked Questions</h2><p _ngcontent-ng-c3879638520>Find answers to common questions about our services</p></div><div _ngcontent-ng-c3879638520 class="faq-container"><div _ngcontent-ng-c3879638520 class="faq-item"><button _ngcontent-ng-c3879638520 class="faq-question" jsaction="click:;"><span _ngcontent-ng-c3879638520 class="question-text">Do you provide same day service?</span><span _ngcontent-ng-c3879638520 class="faq-icon">+</span></button><div _ngcontent-ng-c3879638520 class="faq-answer"><p _ngcontent-ng-c3879638520>Yes! We offer same-day service for most requests. Our emergency calls are typically handled within 30-60 minutes depending on location and technician availability.</p></div></div><div _ngcontent-ng-c3879638520 class="faq-item"><button _ngcontent-ng-c3879638520 class="faq-question" jsaction="click:;"><span _ngcontent-ng-c3879638520 class="question-text">Do you charge visiting fees?</span><span _ngcontent-ng-c3879638520 class="faq-icon">+</span></button><div _ngcontent-ng-c3879638520 class="faq-answer"><p _ngcontent-ng-c3879638520>We don't charge separate visiting fees. Our charges are transparent and are discussed before starting any work.</p></div></div><div _ngcontent-ng-c3879638520 class="faq-item"><button _ngcontent-ng-c3879638520 class="faq-question" jsaction="click:;"><span _ngcontent-ng-c3879638520 class="question-text">Which locations do you cover?</span><span _ngcontent-ng-c3879638520 class="faq-icon">+</span></button><div _ngcontent-ng-c3879638520 class="faq-answer"><p _ngcontent-ng-c3879638520>We serve Vadodara, Manjalpur, Tarsali, Makarpura, Waghodia, Karelibaug, Gotri, Akota, Sama, Harni, and Ajwa. Contact us to confirm service availability in your specific area.</p></div></div><div _ngcontent-ng-c3879638520 class="faq-item"><button _ngcontent-ng-c3879638520 class="faq-question" jsaction="click:;"><span _ngcontent-ng-c3879638520 class="question-text">Can I book via WhatsApp?</span><span _ngcontent-ng-c3879638520 class="faq-icon">+</span></button><div _ngcontent-ng-c3879638520 class="faq-answer"><p _ngcontent-ng-c3879638520>Absolutely! You can book, discuss, and get quotes via WhatsApp. Text us at +91 88497 01206 with your service requirement.</p></div></div><div _ngcontent-ng-c3879638520 class="faq-item"><button _ngcontent-ng-c3879638520 class="faq-question" jsaction="click:;"><span _ngcontent-ng-c3879638520 class="question-text">Are technicians verified?</span><span _ngcontent-ng-c3879638520 class="faq-icon">+</span></button><div _ngcontent-ng-c3879638520 class="faq-answer"><p _ngcontent-ng-c3879638520>Yes, all our technicians are verified, trained, and experienced professionals with background checks for your safety and peace of mind.</p></div></div><!----></div></section><section _ngcontent-ng-c3879638520 id="booking-cta" class="contact-cta"><div _ngcontent-ng-c3879638520 class="cta-content"><h2 _ngcontent-ng-c3879638520 class="cta-headline">Need a Technician in Your Area?</h2><p _ngcontent-ng-c3879638520 class="cta-subtext">Book our professional services today with just one call or message</p><div _ngcontent-ng-c3879638520 class="cta-buttons"><a _ngcontent-ng-c3879638520 href="tel:+918849701206" class="btn btn-primary btn-large">📞 Call Now</a><a _ngcontent-ng-c3879638520 href="https://wa.me/918849701206" target="_blank" class="btn btn-secondary btn-large">💬 WhatsApp Now</a><button _ngcontent-ng-c3879638520 class="btn btn-tertiary btn-large">📅 Book Service</button></div><div _ngcontent-ng-c3879638520 class="contact-details"><div _ngcontent-ng-c3879638520 class="contact-item"><span _ngcontent-ng-c3879638520 class="contact-icon">📞</span><div _ngcontent-ng-c3879638520><p _ngcontent-ng-c3879638520 class="label">Phone</p><a _ngcontent-ng-c3879638520 href="tel:+918849701206">+91 88497 01206</a></div></div><div _ngcontent-ng-c3879638520 class="contact-item"><span _ngcontent-ng-c3879638520 class="contact-icon">📧</span><div _ngcontent-ng-c3879638520><p _ngcontent-ng-c3879638520 class="label">Email</p><a _ngcontent-ng-c3879638520 href="mailto:ishvantaonecallservice@gmail.com">ishvantaonecallservice@gmail.com</a></div></div><div _ngcontent-ng-c3879638520 class="contact-item"><span _ngcontent-ng-c3879638520 class="contact-icon">🕐</span><div _ngcontent-ng-c3879638520><p _ngcontent-ng-c3879638520 class="label">Business Hours</p><p _ngcontent-ng-c3879638520>Mon-Sat, 8:00 AM – 8:00 PM</p></div></div></div></div><div _ngcontent-ng-c3879638520 class="cta-background"><div _ngcontent-ng-c3879638520 class="gradient-bg"></div></div></section></div></app-service-areas><!----></main><app-footer _ngcontent-ng-c588981805 _nghost-ng-c3793010630 ngh="3"><footer _ngcontent-ng-c3793010630 class="footer-shell"><div _ngcontent-ng-c3793010630 class="footer-container"><div _ngcontent-ng-c3793010630 class="footer-grid"><section _ngcontent-ng-c3793010630 aria-labelledby="footer-brand-title" class="footer-card footer-brand"><div _ngcontent-ng-c3793010630 class="brand-block"><img _ngcontent-ng-c3793010630 src="assets/ishvanta-logo.png" alt="Ishvanta Services" class="brand-logo"><div _ngcontent-ng-c3793010630 class="brand-copy"><h2 _ngcontent-ng-c3793010630 id="footer-brand-title" class="brand-title"> One call. <span _ngcontent-ng-c3793010630 style="color: #000000;">All solutions.</span></h2></div></div><p _ngcontent-ng-c3793010630 class="brand-description"> Premium home support across Vadodara and Gujarat with verified technicians, transparent pricing and responsive service delivery. </p><div _ngcontent-ng-c3793010630 class="brand-actions"><a _ngcontent-ng-c3793010630 href="tel:+918849701206" class="btn btn-primary"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M13 2a9 9 0 0 1 9 9" key="1itnx2"/><path d="M13 6a5 5 0 0 1 5 5" key="11nki7"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" key="9njp5v"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Call Now</span></a><a _ngcontent-ng-c3793010630 href="https://wa.me/918849701206" target="_blank" class="btn btn-whatsapp"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" key="1sd12s"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>WhatsApp</span></a></div></section><section _ngcontent-ng-c3793010630 aria-labelledby="footer-company-title" class="footer-card"><h3 _ngcontent-ng-c3793010630 id="footer-company-title" class="footer-heading">Company</h3><ul _ngcontent-ng-c3793010630 class="footer-links"><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Home</span></a></li><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/about"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>About Us</span></a></li><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/services"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Services</span></a></li><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/our-work"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Our Work</span></a></li><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/reviews"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Reviews</span></a></li><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/service-areas"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Service Areas</span></a></li><li _ngcontent-ng-c3793010630><a _ngcontent-ng-c3793010630 class="footer-link" href="/contact"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m9 18 6-6-6-6" key="mthhwq"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>Contact Us</span></a></li><!----></ul></section><section _ngcontent-ng-c3793010630 aria-labelledby="footer-services-title" class="footer-card"><h3 _ngcontent-ng-c3793010630 id="footer-services-title" class="footer-heading">Our Services</h3><div _ngcontent-ng-c3793010630 class="service-grid"><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>Electrical Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>Plumbing Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>House Painting</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>Furniture Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>Kitchen Appliances Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>AC &amp; Fridge Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>Two Wheeler Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>Fabrication Service</span></a><a _ngcontent-ng-c3793010630 href="/services" class="service-item"><div _ngcontent-ng-c3793010630 class="service-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M5 12h14" key="1ays0h"/><path d="m12 5 7 7-7 7" key="xquz4c"/></svg></lucide-icon></div><span _ngcontent-ng-c3793010630>CCTV Installation Service</span></a><!----></div></section><section _ngcontent-ng-c3793010630 aria-labelledby="footer-contact-title" class="footer-card"><h3 _ngcontent-ng-c3793010630 id="footer-contact-title" class="footer-heading">Contact</h3><div _ngcontent-ng-c3793010630 class="contact-list"><a _ngcontent-ng-c3793010630 href="https://maps.google.com/?q=Vadodara,Gujarat" target="_blank" class="contact-item"><div _ngcontent-ng-c3793010630 class="contact-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" key="1r0f0z"/><circle cx="12" cy="10" r="3" key="ilqhr7"/></svg></lucide-icon></div><div _ngcontent-ng-c3793010630><h4 _ngcontent-ng-c3793010630>Address</h4><p _ngcontent-ng-c3793010630>Vadodara, Gujarat</p></div></a><a _ngcontent-ng-c3793010630 href="tel:+918849701206" class="contact-item"><div _ngcontent-ng-c3793010630 class="contact-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M13 2a9 9 0 0 1 9 9" key="1itnx2"/><path d="M13 6a5 5 0 0 1 5 5" key="11nki7"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" key="9njp5v"/></svg></lucide-icon></div><div _ngcontent-ng-c3793010630><h4 _ngcontent-ng-c3793010630>Phone</h4><p _ngcontent-ng-c3793010630>+91 88497 01206</p></div></a><a _ngcontent-ng-c3793010630 class="contact-item" href="mailto:ishvantaonecallservice@gmail.com"><div _ngcontent-ng-c3793010630 class="contact-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" key="132q7q"/><rect x="2" y="4" width="20" height="16" rx="2" key="izxlao"/></svg></lucide-icon></div><div _ngcontent-ng-c3793010630><h4 _ngcontent-ng-c3793010630>Email</h4><p _ngcontent-ng-c3793010630>ishvantaonecallservice@gmail.com</p></div></a><div _ngcontent-ng-c3793010630 class="contact-item"><div _ngcontent-ng-c3793010630 class="contact-icon"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><circle cx="12" cy="12" r="10" key="1mglay"/><path d="M12 6v6h4" key="135r8i"/></svg></lucide-icon></div><div _ngcontent-ng-c3793010630><h4 _ngcontent-ng-c3793010630>Working Hours</h4><p _ngcontent-ng-c3793010630>Mon - Sat<br _ngcontent-ng-c3793010630>09:00 AM - 07:00 PM</p></div></div></div><div _ngcontent-ng-c3793010630 class="social-links"><a _ngcontent-ng-c3793010630 target="_blank" class="social-link" href="https://www.facebook.com/ishavantaonecallservice" aria-label="Follow us on Facebook"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" key="1jg4f8"/></svg></lucide-icon></a><a _ngcontent-ng-c3793010630 target="_blank" class="social-link" href="https://www.instagram.com/ishavantaonecallservice" aria-label="Follow us on Instagram"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" key="2e1cvw"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" key="9exkf1"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" key="r4j83e"/></svg></lucide-icon></a><a _ngcontent-ng-c3793010630 target="_blank" class="social-link" href="https://www.linkedin.com/company/ishavanta-one-call-service" aria-label="Follow us on LinkedIn"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" key="c2jq9f"/><rect width="4" height="12" x="2" y="9" key="mk3on5"/><circle cx="4" cy="4" r="2" key="bt5ra8"/></svg></lucide-icon></a><a _ngcontent-ng-c3793010630 target="_blank" class="social-link" href="https://wa.me/918849701206" aria-label="Chat with us on WhatsApp"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" key="1sd12s"/></svg></lucide-icon></a><a _ngcontent-ng-c3793010630 target="_blank" class="social-link" href="https://www.youtube.com/@ishvanta" aria-label="Watch us on YouTube"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" key="1q2vi4"/><path d="m10 15 5-3-5-3z" key="1jp15x"/></svg></lucide-icon></a><!----></div></section></div><div _ngcontent-ng-c3793010630 class="footer-bottom"><div _ngcontent-ng-c3793010630 class="footer-bottom-left"><lucide-icon _ngcontent-ng-c3793010630 aria-hidden="true" ngh="2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" key="oel41y"/><path d="m9 12 2 2 4-4" key="dzmm74"/></svg></lucide-icon><span _ngcontent-ng-c3793010630>© 2026 ISHVANTA SERVICES. All Rights Reserved.</span></div><div _ngcontent-ng-c3793010630 class="footer-bottom-center"><a _ngcontent-ng-c3793010630 routerlink="/privacy">Privacy Policy</a><a _ngcontent-ng-c3793010630 routerlink="/terms">Terms &amp; Conditions</a><a _ngcontent-ng-c3793010630 routerlink="/refund-policy">Refund Policy</a><a _ngcontent-ng-c3793010630 routerlink="/sitemap">Sitemap</a></div><div _ngcontent-ng-c3793010630 class="footer-bottom-right"> Designed with ❤️ by ISHVANTA SERVICES </div></div></div></footer></app-footer></app-root>
+<link rel="modulepreload" href="chunk-EDA5S52B.js"><link rel="modulepreload" href="chunk-GKW2MQJE.js"><script src="main-5C5E47B6.js" type="module"></script>
+<link rel="modulepreload" href="chunk-TMNOZ6R5.js">
+<link rel="modulepreload" href="chunk-CJPLD6EO.js">
+
+
+
+<script id="ng-state" type="application/json">{"__nghData__":[{"n":{"2":"hfn","5":"hfn2"}},{"t":{"67":"t5","98":"t6","106":"t7","160":"t8","164":"t9","188":"t10"},"c":{"67":[{"i":"t5","r":1,"x":11}],"98":[{"i":"t6","r":1,"x":6}],"106":[{"i":"t7","r":1,"x":9}],"160":[{"i":"t8","r":1,"x":5}],"164":[{"i":"t9","r":1,"x":4}],"188":[{"i":"t10","r":1,"x":5}]}},{},{"t":{"26":"t2","31":"t3","71":"t4"},"c":{"26":[{"i":"t2","r":1,"x":7}],"31":[{"i":"t3","r":1,"x":9}],"71":[{"i":"t4","r":1,"x":5}]}},{"t":{"4":"t0","10":"t1"},"c":{"4":[{"i":"t0","r":1,"n":{"2":"1fnf","4":"3fnf","6":"5fnf","8":"7fnf","10":"9fnf","12":"11fnf"}}],"10":[],"12":[{"i":"c3879638520","r":1}]}}]}</script></body></html>`;
