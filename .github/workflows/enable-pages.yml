@@ -18,7 +18,7 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             core.info(`Enabling Pages for ${owner}/${repo}`);
-            const resp = await github.rest.repos.updatePagesSite({
+            const resp = await github.request('PUT /repos/{owner}/{repo}/pages', {
               owner,
               repo,
               source: { branch: 'gh-pages', path: '/' }
