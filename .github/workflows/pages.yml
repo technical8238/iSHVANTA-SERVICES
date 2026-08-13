@@ -24,22 +24,28 @@ jobs:
       - name: Build frontend
         run: npm run build --if-present
 
-      - name: Upload Pages artifact
-        id: upload-artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: |
-            dist
+      - name: Package output
+        run: echo "Built to dist/ (contents will be published)"
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Download Pages artifact
-        uses: actions/download-pages-artifact@v1
+      - uses: actions/checkout@v4
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build frontend (deploy)
+        run: npm run build --if-present
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
