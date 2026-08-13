@@ -36,3 +36,15 @@ Deploy the contents of the `dist/` folder to any static hosting provider or Angu
 ## Backend API
 
 The `backend/` folder contains a .NET API foundation for future contact inquiries and enterprise integrations.
+
+---
+
+Repository: https://github.com/technical8238/iSHVANTA-SERVICES
+
+Contributing
+-----------
+- Fork the repository and create a feature branch.
+- Open a pull request against `main` with a clear description of changes.
+- For issues or questions, open an issue in the repository.
+
+License: See repository for license details.
